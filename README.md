@@ -1,6 +1,16 @@
 # @bagakit/open-agent-avatars
 
-A ready-to-use set of avatar SVGs (with small built-in animations) for quickly bootstrapping other projects.
+A ready-to-use set of masterpiece Low Poly avatar SVGs (with built-in micro-animations) for quickly bootstrapping AI agent projects, NFT collections, or gamified UIs.
+
+Designed in the **"Alex Pixel Cutter"** style: vibrant colors, clean geometric boundaries, subtle 3D depth, and premium golden outlines.
+
+## Showcase
+
+| Programming | Designing | Fighting | Researching |
+| :---: | :---: | :---: | :---: |
+| <img src="./20260202/Panda_Programming.svg" width="120" /> | <img src="./20260202/Fox_Designing.svg" width="120" /> | <img src="./20260202/Dog_Fighting.svg" width="120" /> | <img src="./20260202/Cat_Researching.svg" width="120" /> |
+| **Planning** | **Speaking** | **Crafting** | **Studying** |
+| <img src="./20260202/Dragon_Planning.svg" width="120" /> | <img src="./20260202/Capybara_Speaking.svg" width="120" /> | <img src="./20260202/Shark_Crafting.svg" width="120" /> | <img src="./20260202/Rabbit_Studying.svg" width="120" /> |
 
 ## Install
 
@@ -10,52 +20,73 @@ npm i @bagakit/open-agent-avatars
 
 ## Use
 
-### Browse / search
+### 1. Modern Tree-shaking Import (Recommended)
 
-```js
+Each icon is available as a separate ESM module for minimal bundle size.
+
+```javascript
+import PANDA_PROGRAMMING from "@bagakit/open-agent-avatars/20260202/PANDA_PROGRAMMING";
+
+// In React
+function AgentAvatar() {
+  return <img src={PANDA_PROGRAMMING} alt="Panda Coder" className="avatar" />;
+}
+```
+
+### 2. Import from Batch Index
+
+```javascript
+import { FOX_DESIGNING, CAT_FIGHTING } from "@bagakit/open-agent-avatars/20260202";
+
+console.log(FOX_DESIGNING); // URL to the SVG
+```
+
+### 3. Dynamic Search / Browse
+
+Access the full metadata list to build a searchable avatar picker.
+
+```javascript
 import { avatars } from "@bagakit/open-agent-avatars";
 
-// Example: pick all Panda avatars from batch 20260201
-const panda = avatars.filter(
-  (a) => a.batch === "20260201" && a.tokens[0] === "Panda"
+// Find all "Capybara" avatars
+const capybaras = avatars.filter(a => a.tokens.includes("Capybara"));
+
+// Find a specific combination
+const coder = avatars.find(a => 
+  a.tokens.includes("Dog") && a.tokens.includes("Programming")
 );
+
+if (coder) {
+  const img = new Image();
+  img.src = coder.url;
+  document.body.appendChild(img);
+}
 ```
 
-Each entry includes:
-- `batch`, `filename`, `path`, `stem`, `title`, `tokens`, optional `timestamp`, and `url`
+## Available Content
 
-### Use a versioned module (recommended; best for tree-shaking)
+- **Animals**: Panda, Owl, Dog, Cat, Elephant, Mouse, Dragon, Snake, Sheep, Goat, Ox, Capybara, Fox, Rabbit, Rhino, Shark, Whale.
+- **Professions**: Paper Working, Programming, Planning, Designing, Researching, Studying, Crafting, Fighting, Spelling, Speaking.
 
-```js
-import CAPYBARA_CRAFTING from "@bagakit/open-agent-avatars/20260202/CAPYBARA_CRAFTING";
+## Style Features
 
-const img = document.createElement("img");
-img.src = CAPYBARA_CRAFTING;
-document.body.appendChild(img);
-```
-
-Notes:
-- `20260202/` is a versioned batch folder.
-- Export names are derived from the filename stem (without the trailing timestamp). If multiple versions exist, the latest timestamp wins.
-- You can also import from the version index:
-  ```js
-  import { CAPYBARA_CRAFTING } from "@bagakit/open-agent-avatars/20260202";
-  ```
-
-### Raw SVG access
-
-If you need raw SVGs, use the repo files directly (this package primarily exposes per-icon JS modules).
+- **Chibi Style**: Cute, high-head-to-body ratio focus.
+- **Low Poly**: Masterpiece quality geometric mesh.
+- **Micro-Animations**: Built-in CSS animations for floating, blinking, and accessory-specific movements (ear twitch, lens sheen, etc.).
+- **NFT Grade**: Crisp boundaries, golden "enamel pin" outline, and soft drop shadows.
 
 ## Maintenance
 
-When you add new batch folders (e.g. `YYYYMMDD/`) or add/remove SVGs, regenerate exports:
-
+To regenerate the index files:
 ```bash
 npm run generate
 ```
 
-To (re)generate the `20260202/` batch assets locally (repo maintainers):
-
+To (re)generate the `20260202/` batch assets (maintainers only):
 ```bash
 node ./scripts/generate-new-avatars.mjs
 ```
+
+## License
+
+MIT

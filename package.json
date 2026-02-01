@@ -1,6 +1,6 @@
 {
   "name": "@bagakit/open-agent-avatars",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A ready-to-use set of open-agent avatar SVGs for quickly bootstrapping other projects.",
   "license": "MIT",
   "type": "module",
@@ -28,7 +28,8 @@
     "prepack": "node ./scripts/generate-index.mjs",
     "publish:public": "npm publish --access public"
   },
-  "publishConfig": {
+  "publishConfig": { 
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   }
 }
