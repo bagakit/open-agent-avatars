@@ -12,8 +12,16 @@
       "require": "./index.cjs"
     },
     "./index.json": "./index.json",
-    "./*": "./*",
-    "./*/*": "./*/*"
+    "./20260202": {
+      "types": "./20260202/index.d.ts",
+      "import": "./20260202/index.mjs",
+      "require": "./20260202/index.cjs"
+    },
+    "./20260202/*": {
+      "types": "./20260202/mod/*.d.ts",
+      "import": "./20260202/mod/*.mjs",
+      "require": "./20260202/mod/*.cjs"
+    }
   },
   "scripts": {
     "generate": "node ./scripts/generate-index.mjs",

@@ -1106,122 +1106,1537 @@ const avatars = Object.freeze([
     tokens: ["Warrior","Mouse","Combat"],
     timestamp: "20260201061505",
     url: toFileUrl("20260201/Warrior_Mouse_Combat_20260201061505.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Crafting.svg",
+    path: "./20260202/Capybara_Crafting.svg",
+    stem: "Capybara_Crafting",
+    title: "Capybara Crafting",
+    tokens: ["Capybara","Crafting"],
+    url: toFileUrl("20260202/Capybara_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Designing.svg",
+    path: "./20260202/Capybara_Designing.svg",
+    stem: "Capybara_Designing",
+    title: "Capybara Designing",
+    tokens: ["Capybara","Designing"],
+    url: toFileUrl("20260202/Capybara_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Fighting.svg",
+    path: "./20260202/Capybara_Fighting.svg",
+    stem: "Capybara_Fighting",
+    title: "Capybara Fighting",
+    tokens: ["Capybara","Fighting"],
+    url: toFileUrl("20260202/Capybara_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Paper_Working.svg",
+    path: "./20260202/Capybara_Paper_Working.svg",
+    stem: "Capybara_Paper_Working",
+    title: "Capybara Paper Working",
+    tokens: ["Capybara","Paper","Working"],
+    url: toFileUrl("20260202/Capybara_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Planning.svg",
+    path: "./20260202/Capybara_Planning.svg",
+    stem: "Capybara_Planning",
+    title: "Capybara Planning",
+    tokens: ["Capybara","Planning"],
+    url: toFileUrl("20260202/Capybara_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Programming.svg",
+    path: "./20260202/Capybara_Programming.svg",
+    stem: "Capybara_Programming",
+    title: "Capybara Programming",
+    tokens: ["Capybara","Programming"],
+    url: toFileUrl("20260202/Capybara_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Researching.svg",
+    path: "./20260202/Capybara_Researching.svg",
+    stem: "Capybara_Researching",
+    title: "Capybara Researching",
+    tokens: ["Capybara","Researching"],
+    url: toFileUrl("20260202/Capybara_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Speaking.svg",
+    path: "./20260202/Capybara_Speaking.svg",
+    stem: "Capybara_Speaking",
+    title: "Capybara Speaking",
+    tokens: ["Capybara","Speaking"],
+    url: toFileUrl("20260202/Capybara_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Spelling.svg",
+    path: "./20260202/Capybara_Spelling.svg",
+    stem: "Capybara_Spelling",
+    title: "Capybara Spelling",
+    tokens: ["Capybara","Spelling"],
+    url: toFileUrl("20260202/Capybara_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Capybara_Studying.svg",
+    path: "./20260202/Capybara_Studying.svg",
+    stem: "Capybara_Studying",
+    title: "Capybara Studying",
+    tokens: ["Capybara","Studying"],
+    url: toFileUrl("20260202/Capybara_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Crafting.svg",
+    path: "./20260202/Cat_Crafting.svg",
+    stem: "Cat_Crafting",
+    title: "Cat Crafting",
+    tokens: ["Cat","Crafting"],
+    url: toFileUrl("20260202/Cat_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Designing.svg",
+    path: "./20260202/Cat_Designing.svg",
+    stem: "Cat_Designing",
+    title: "Cat Designing",
+    tokens: ["Cat","Designing"],
+    url: toFileUrl("20260202/Cat_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Fighting.svg",
+    path: "./20260202/Cat_Fighting.svg",
+    stem: "Cat_Fighting",
+    title: "Cat Fighting",
+    tokens: ["Cat","Fighting"],
+    url: toFileUrl("20260202/Cat_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Paper_Working.svg",
+    path: "./20260202/Cat_Paper_Working.svg",
+    stem: "Cat_Paper_Working",
+    title: "Cat Paper Working",
+    tokens: ["Cat","Paper","Working"],
+    url: toFileUrl("20260202/Cat_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Planning.svg",
+    path: "./20260202/Cat_Planning.svg",
+    stem: "Cat_Planning",
+    title: "Cat Planning",
+    tokens: ["Cat","Planning"],
+    url: toFileUrl("20260202/Cat_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Programming.svg",
+    path: "./20260202/Cat_Programming.svg",
+    stem: "Cat_Programming",
+    title: "Cat Programming",
+    tokens: ["Cat","Programming"],
+    url: toFileUrl("20260202/Cat_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Researching.svg",
+    path: "./20260202/Cat_Researching.svg",
+    stem: "Cat_Researching",
+    title: "Cat Researching",
+    tokens: ["Cat","Researching"],
+    url: toFileUrl("20260202/Cat_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Speaking.svg",
+    path: "./20260202/Cat_Speaking.svg",
+    stem: "Cat_Speaking",
+    title: "Cat Speaking",
+    tokens: ["Cat","Speaking"],
+    url: toFileUrl("20260202/Cat_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Spelling.svg",
+    path: "./20260202/Cat_Spelling.svg",
+    stem: "Cat_Spelling",
+    title: "Cat Spelling",
+    tokens: ["Cat","Spelling"],
+    url: toFileUrl("20260202/Cat_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Cat_Studying.svg",
+    path: "./20260202/Cat_Studying.svg",
+    stem: "Cat_Studying",
+    title: "Cat Studying",
+    tokens: ["Cat","Studying"],
+    url: toFileUrl("20260202/Cat_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Crafting.svg",
+    path: "./20260202/Dog_Crafting.svg",
+    stem: "Dog_Crafting",
+    title: "Dog Crafting",
+    tokens: ["Dog","Crafting"],
+    url: toFileUrl("20260202/Dog_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Designing.svg",
+    path: "./20260202/Dog_Designing.svg",
+    stem: "Dog_Designing",
+    title: "Dog Designing",
+    tokens: ["Dog","Designing"],
+    url: toFileUrl("20260202/Dog_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Fighting.svg",
+    path: "./20260202/Dog_Fighting.svg",
+    stem: "Dog_Fighting",
+    title: "Dog Fighting",
+    tokens: ["Dog","Fighting"],
+    url: toFileUrl("20260202/Dog_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Paper_Working.svg",
+    path: "./20260202/Dog_Paper_Working.svg",
+    stem: "Dog_Paper_Working",
+    title: "Dog Paper Working",
+    tokens: ["Dog","Paper","Working"],
+    url: toFileUrl("20260202/Dog_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Planning.svg",
+    path: "./20260202/Dog_Planning.svg",
+    stem: "Dog_Planning",
+    title: "Dog Planning",
+    tokens: ["Dog","Planning"],
+    url: toFileUrl("20260202/Dog_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Programming.svg",
+    path: "./20260202/Dog_Programming.svg",
+    stem: "Dog_Programming",
+    title: "Dog Programming",
+    tokens: ["Dog","Programming"],
+    url: toFileUrl("20260202/Dog_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Researching.svg",
+    path: "./20260202/Dog_Researching.svg",
+    stem: "Dog_Researching",
+    title: "Dog Researching",
+    tokens: ["Dog","Researching"],
+    url: toFileUrl("20260202/Dog_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Speaking.svg",
+    path: "./20260202/Dog_Speaking.svg",
+    stem: "Dog_Speaking",
+    title: "Dog Speaking",
+    tokens: ["Dog","Speaking"],
+    url: toFileUrl("20260202/Dog_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Spelling.svg",
+    path: "./20260202/Dog_Spelling.svg",
+    stem: "Dog_Spelling",
+    title: "Dog Spelling",
+    tokens: ["Dog","Spelling"],
+    url: toFileUrl("20260202/Dog_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dog_Studying.svg",
+    path: "./20260202/Dog_Studying.svg",
+    stem: "Dog_Studying",
+    title: "Dog Studying",
+    tokens: ["Dog","Studying"],
+    url: toFileUrl("20260202/Dog_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Crafting.svg",
+    path: "./20260202/Dragon_Crafting.svg",
+    stem: "Dragon_Crafting",
+    title: "Dragon Crafting",
+    tokens: ["Dragon","Crafting"],
+    url: toFileUrl("20260202/Dragon_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Designing.svg",
+    path: "./20260202/Dragon_Designing.svg",
+    stem: "Dragon_Designing",
+    title: "Dragon Designing",
+    tokens: ["Dragon","Designing"],
+    url: toFileUrl("20260202/Dragon_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Fighting.svg",
+    path: "./20260202/Dragon_Fighting.svg",
+    stem: "Dragon_Fighting",
+    title: "Dragon Fighting",
+    tokens: ["Dragon","Fighting"],
+    url: toFileUrl("20260202/Dragon_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Paper_Working.svg",
+    path: "./20260202/Dragon_Paper_Working.svg",
+    stem: "Dragon_Paper_Working",
+    title: "Dragon Paper Working",
+    tokens: ["Dragon","Paper","Working"],
+    url: toFileUrl("20260202/Dragon_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Planning.svg",
+    path: "./20260202/Dragon_Planning.svg",
+    stem: "Dragon_Planning",
+    title: "Dragon Planning",
+    tokens: ["Dragon","Planning"],
+    url: toFileUrl("20260202/Dragon_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Programming.svg",
+    path: "./20260202/Dragon_Programming.svg",
+    stem: "Dragon_Programming",
+    title: "Dragon Programming",
+    tokens: ["Dragon","Programming"],
+    url: toFileUrl("20260202/Dragon_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Researching.svg",
+    path: "./20260202/Dragon_Researching.svg",
+    stem: "Dragon_Researching",
+    title: "Dragon Researching",
+    tokens: ["Dragon","Researching"],
+    url: toFileUrl("20260202/Dragon_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Speaking.svg",
+    path: "./20260202/Dragon_Speaking.svg",
+    stem: "Dragon_Speaking",
+    title: "Dragon Speaking",
+    tokens: ["Dragon","Speaking"],
+    url: toFileUrl("20260202/Dragon_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Spelling.svg",
+    path: "./20260202/Dragon_Spelling.svg",
+    stem: "Dragon_Spelling",
+    title: "Dragon Spelling",
+    tokens: ["Dragon","Spelling"],
+    url: toFileUrl("20260202/Dragon_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Dragon_Studying.svg",
+    path: "./20260202/Dragon_Studying.svg",
+    stem: "Dragon_Studying",
+    title: "Dragon Studying",
+    tokens: ["Dragon","Studying"],
+    url: toFileUrl("20260202/Dragon_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Crafting.svg",
+    path: "./20260202/Elephant_Crafting.svg",
+    stem: "Elephant_Crafting",
+    title: "Elephant Crafting",
+    tokens: ["Elephant","Crafting"],
+    url: toFileUrl("20260202/Elephant_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Designing.svg",
+    path: "./20260202/Elephant_Designing.svg",
+    stem: "Elephant_Designing",
+    title: "Elephant Designing",
+    tokens: ["Elephant","Designing"],
+    url: toFileUrl("20260202/Elephant_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Fighting.svg",
+    path: "./20260202/Elephant_Fighting.svg",
+    stem: "Elephant_Fighting",
+    title: "Elephant Fighting",
+    tokens: ["Elephant","Fighting"],
+    url: toFileUrl("20260202/Elephant_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Paper_Working.svg",
+    path: "./20260202/Elephant_Paper_Working.svg",
+    stem: "Elephant_Paper_Working",
+    title: "Elephant Paper Working",
+    tokens: ["Elephant","Paper","Working"],
+    url: toFileUrl("20260202/Elephant_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Planning.svg",
+    path: "./20260202/Elephant_Planning.svg",
+    stem: "Elephant_Planning",
+    title: "Elephant Planning",
+    tokens: ["Elephant","Planning"],
+    url: toFileUrl("20260202/Elephant_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Programming.svg",
+    path: "./20260202/Elephant_Programming.svg",
+    stem: "Elephant_Programming",
+    title: "Elephant Programming",
+    tokens: ["Elephant","Programming"],
+    url: toFileUrl("20260202/Elephant_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Researching.svg",
+    path: "./20260202/Elephant_Researching.svg",
+    stem: "Elephant_Researching",
+    title: "Elephant Researching",
+    tokens: ["Elephant","Researching"],
+    url: toFileUrl("20260202/Elephant_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Speaking.svg",
+    path: "./20260202/Elephant_Speaking.svg",
+    stem: "Elephant_Speaking",
+    title: "Elephant Speaking",
+    tokens: ["Elephant","Speaking"],
+    url: toFileUrl("20260202/Elephant_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Spelling.svg",
+    path: "./20260202/Elephant_Spelling.svg",
+    stem: "Elephant_Spelling",
+    title: "Elephant Spelling",
+    tokens: ["Elephant","Spelling"],
+    url: toFileUrl("20260202/Elephant_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Elephant_Studying.svg",
+    path: "./20260202/Elephant_Studying.svg",
+    stem: "Elephant_Studying",
+    title: "Elephant Studying",
+    tokens: ["Elephant","Studying"],
+    url: toFileUrl("20260202/Elephant_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Crafting.svg",
+    path: "./20260202/Fox_Crafting.svg",
+    stem: "Fox_Crafting",
+    title: "Fox Crafting",
+    tokens: ["Fox","Crafting"],
+    url: toFileUrl("20260202/Fox_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Designing.svg",
+    path: "./20260202/Fox_Designing.svg",
+    stem: "Fox_Designing",
+    title: "Fox Designing",
+    tokens: ["Fox","Designing"],
+    url: toFileUrl("20260202/Fox_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Fighting.svg",
+    path: "./20260202/Fox_Fighting.svg",
+    stem: "Fox_Fighting",
+    title: "Fox Fighting",
+    tokens: ["Fox","Fighting"],
+    url: toFileUrl("20260202/Fox_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Paper_Working.svg",
+    path: "./20260202/Fox_Paper_Working.svg",
+    stem: "Fox_Paper_Working",
+    title: "Fox Paper Working",
+    tokens: ["Fox","Paper","Working"],
+    url: toFileUrl("20260202/Fox_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Planning.svg",
+    path: "./20260202/Fox_Planning.svg",
+    stem: "Fox_Planning",
+    title: "Fox Planning",
+    tokens: ["Fox","Planning"],
+    url: toFileUrl("20260202/Fox_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Programming.svg",
+    path: "./20260202/Fox_Programming.svg",
+    stem: "Fox_Programming",
+    title: "Fox Programming",
+    tokens: ["Fox","Programming"],
+    url: toFileUrl("20260202/Fox_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Researching.svg",
+    path: "./20260202/Fox_Researching.svg",
+    stem: "Fox_Researching",
+    title: "Fox Researching",
+    tokens: ["Fox","Researching"],
+    url: toFileUrl("20260202/Fox_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Speaking.svg",
+    path: "./20260202/Fox_Speaking.svg",
+    stem: "Fox_Speaking",
+    title: "Fox Speaking",
+    tokens: ["Fox","Speaking"],
+    url: toFileUrl("20260202/Fox_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Spelling.svg",
+    path: "./20260202/Fox_Spelling.svg",
+    stem: "Fox_Spelling",
+    title: "Fox Spelling",
+    tokens: ["Fox","Spelling"],
+    url: toFileUrl("20260202/Fox_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Fox_Studying.svg",
+    path: "./20260202/Fox_Studying.svg",
+    stem: "Fox_Studying",
+    title: "Fox Studying",
+    tokens: ["Fox","Studying"],
+    url: toFileUrl("20260202/Fox_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Crafting.svg",
+    path: "./20260202/Goat_Crafting.svg",
+    stem: "Goat_Crafting",
+    title: "Goat Crafting",
+    tokens: ["Goat","Crafting"],
+    url: toFileUrl("20260202/Goat_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Designing.svg",
+    path: "./20260202/Goat_Designing.svg",
+    stem: "Goat_Designing",
+    title: "Goat Designing",
+    tokens: ["Goat","Designing"],
+    url: toFileUrl("20260202/Goat_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Fighting.svg",
+    path: "./20260202/Goat_Fighting.svg",
+    stem: "Goat_Fighting",
+    title: "Goat Fighting",
+    tokens: ["Goat","Fighting"],
+    url: toFileUrl("20260202/Goat_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Paper_Working.svg",
+    path: "./20260202/Goat_Paper_Working.svg",
+    stem: "Goat_Paper_Working",
+    title: "Goat Paper Working",
+    tokens: ["Goat","Paper","Working"],
+    url: toFileUrl("20260202/Goat_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Planning.svg",
+    path: "./20260202/Goat_Planning.svg",
+    stem: "Goat_Planning",
+    title: "Goat Planning",
+    tokens: ["Goat","Planning"],
+    url: toFileUrl("20260202/Goat_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Programming.svg",
+    path: "./20260202/Goat_Programming.svg",
+    stem: "Goat_Programming",
+    title: "Goat Programming",
+    tokens: ["Goat","Programming"],
+    url: toFileUrl("20260202/Goat_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Researching.svg",
+    path: "./20260202/Goat_Researching.svg",
+    stem: "Goat_Researching",
+    title: "Goat Researching",
+    tokens: ["Goat","Researching"],
+    url: toFileUrl("20260202/Goat_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Speaking.svg",
+    path: "./20260202/Goat_Speaking.svg",
+    stem: "Goat_Speaking",
+    title: "Goat Speaking",
+    tokens: ["Goat","Speaking"],
+    url: toFileUrl("20260202/Goat_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Spelling.svg",
+    path: "./20260202/Goat_Spelling.svg",
+    stem: "Goat_Spelling",
+    title: "Goat Spelling",
+    tokens: ["Goat","Spelling"],
+    url: toFileUrl("20260202/Goat_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Goat_Studying.svg",
+    path: "./20260202/Goat_Studying.svg",
+    stem: "Goat_Studying",
+    title: "Goat Studying",
+    tokens: ["Goat","Studying"],
+    url: toFileUrl("20260202/Goat_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Crafting.svg",
+    path: "./20260202/Mouse_Crafting.svg",
+    stem: "Mouse_Crafting",
+    title: "Mouse Crafting",
+    tokens: ["Mouse","Crafting"],
+    url: toFileUrl("20260202/Mouse_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Designing.svg",
+    path: "./20260202/Mouse_Designing.svg",
+    stem: "Mouse_Designing",
+    title: "Mouse Designing",
+    tokens: ["Mouse","Designing"],
+    url: toFileUrl("20260202/Mouse_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Fighting.svg",
+    path: "./20260202/Mouse_Fighting.svg",
+    stem: "Mouse_Fighting",
+    title: "Mouse Fighting",
+    tokens: ["Mouse","Fighting"],
+    url: toFileUrl("20260202/Mouse_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Paper_Working.svg",
+    path: "./20260202/Mouse_Paper_Working.svg",
+    stem: "Mouse_Paper_Working",
+    title: "Mouse Paper Working",
+    tokens: ["Mouse","Paper","Working"],
+    url: toFileUrl("20260202/Mouse_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Planning.svg",
+    path: "./20260202/Mouse_Planning.svg",
+    stem: "Mouse_Planning",
+    title: "Mouse Planning",
+    tokens: ["Mouse","Planning"],
+    url: toFileUrl("20260202/Mouse_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Programming.svg",
+    path: "./20260202/Mouse_Programming.svg",
+    stem: "Mouse_Programming",
+    title: "Mouse Programming",
+    tokens: ["Mouse","Programming"],
+    url: toFileUrl("20260202/Mouse_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Researching.svg",
+    path: "./20260202/Mouse_Researching.svg",
+    stem: "Mouse_Researching",
+    title: "Mouse Researching",
+    tokens: ["Mouse","Researching"],
+    url: toFileUrl("20260202/Mouse_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Speaking.svg",
+    path: "./20260202/Mouse_Speaking.svg",
+    stem: "Mouse_Speaking",
+    title: "Mouse Speaking",
+    tokens: ["Mouse","Speaking"],
+    url: toFileUrl("20260202/Mouse_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Spelling.svg",
+    path: "./20260202/Mouse_Spelling.svg",
+    stem: "Mouse_Spelling",
+    title: "Mouse Spelling",
+    tokens: ["Mouse","Spelling"],
+    url: toFileUrl("20260202/Mouse_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Mouse_Studying.svg",
+    path: "./20260202/Mouse_Studying.svg",
+    stem: "Mouse_Studying",
+    title: "Mouse Studying",
+    tokens: ["Mouse","Studying"],
+    url: toFileUrl("20260202/Mouse_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Crafting.svg",
+    path: "./20260202/Owl_Crafting.svg",
+    stem: "Owl_Crafting",
+    title: "Owl Crafting",
+    tokens: ["Owl","Crafting"],
+    url: toFileUrl("20260202/Owl_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Designing.svg",
+    path: "./20260202/Owl_Designing.svg",
+    stem: "Owl_Designing",
+    title: "Owl Designing",
+    tokens: ["Owl","Designing"],
+    url: toFileUrl("20260202/Owl_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Fighting.svg",
+    path: "./20260202/Owl_Fighting.svg",
+    stem: "Owl_Fighting",
+    title: "Owl Fighting",
+    tokens: ["Owl","Fighting"],
+    url: toFileUrl("20260202/Owl_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Paper_Working.svg",
+    path: "./20260202/Owl_Paper_Working.svg",
+    stem: "Owl_Paper_Working",
+    title: "Owl Paper Working",
+    tokens: ["Owl","Paper","Working"],
+    url: toFileUrl("20260202/Owl_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Planning.svg",
+    path: "./20260202/Owl_Planning.svg",
+    stem: "Owl_Planning",
+    title: "Owl Planning",
+    tokens: ["Owl","Planning"],
+    url: toFileUrl("20260202/Owl_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Programming.svg",
+    path: "./20260202/Owl_Programming.svg",
+    stem: "Owl_Programming",
+    title: "Owl Programming",
+    tokens: ["Owl","Programming"],
+    url: toFileUrl("20260202/Owl_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Researching.svg",
+    path: "./20260202/Owl_Researching.svg",
+    stem: "Owl_Researching",
+    title: "Owl Researching",
+    tokens: ["Owl","Researching"],
+    url: toFileUrl("20260202/Owl_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Speaking.svg",
+    path: "./20260202/Owl_Speaking.svg",
+    stem: "Owl_Speaking",
+    title: "Owl Speaking",
+    tokens: ["Owl","Speaking"],
+    url: toFileUrl("20260202/Owl_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Spelling.svg",
+    path: "./20260202/Owl_Spelling.svg",
+    stem: "Owl_Spelling",
+    title: "Owl Spelling",
+    tokens: ["Owl","Spelling"],
+    url: toFileUrl("20260202/Owl_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Owl_Studying.svg",
+    path: "./20260202/Owl_Studying.svg",
+    stem: "Owl_Studying",
+    title: "Owl Studying",
+    tokens: ["Owl","Studying"],
+    url: toFileUrl("20260202/Owl_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Crafting.svg",
+    path: "./20260202/Ox_Crafting.svg",
+    stem: "Ox_Crafting",
+    title: "Ox Crafting",
+    tokens: ["Ox","Crafting"],
+    url: toFileUrl("20260202/Ox_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Designing.svg",
+    path: "./20260202/Ox_Designing.svg",
+    stem: "Ox_Designing",
+    title: "Ox Designing",
+    tokens: ["Ox","Designing"],
+    url: toFileUrl("20260202/Ox_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Fighting.svg",
+    path: "./20260202/Ox_Fighting.svg",
+    stem: "Ox_Fighting",
+    title: "Ox Fighting",
+    tokens: ["Ox","Fighting"],
+    url: toFileUrl("20260202/Ox_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Paper_Working.svg",
+    path: "./20260202/Ox_Paper_Working.svg",
+    stem: "Ox_Paper_Working",
+    title: "Ox Paper Working",
+    tokens: ["Ox","Paper","Working"],
+    url: toFileUrl("20260202/Ox_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Planning.svg",
+    path: "./20260202/Ox_Planning.svg",
+    stem: "Ox_Planning",
+    title: "Ox Planning",
+    tokens: ["Ox","Planning"],
+    url: toFileUrl("20260202/Ox_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Programming.svg",
+    path: "./20260202/Ox_Programming.svg",
+    stem: "Ox_Programming",
+    title: "Ox Programming",
+    tokens: ["Ox","Programming"],
+    url: toFileUrl("20260202/Ox_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Researching.svg",
+    path: "./20260202/Ox_Researching.svg",
+    stem: "Ox_Researching",
+    title: "Ox Researching",
+    tokens: ["Ox","Researching"],
+    url: toFileUrl("20260202/Ox_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Speaking.svg",
+    path: "./20260202/Ox_Speaking.svg",
+    stem: "Ox_Speaking",
+    title: "Ox Speaking",
+    tokens: ["Ox","Speaking"],
+    url: toFileUrl("20260202/Ox_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Spelling.svg",
+    path: "./20260202/Ox_Spelling.svg",
+    stem: "Ox_Spelling",
+    title: "Ox Spelling",
+    tokens: ["Ox","Spelling"],
+    url: toFileUrl("20260202/Ox_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Ox_Studying.svg",
+    path: "./20260202/Ox_Studying.svg",
+    stem: "Ox_Studying",
+    title: "Ox Studying",
+    tokens: ["Ox","Studying"],
+    url: toFileUrl("20260202/Ox_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Crafting.svg",
+    path: "./20260202/Panda_Crafting.svg",
+    stem: "Panda_Crafting",
+    title: "Panda Crafting",
+    tokens: ["Panda","Crafting"],
+    url: toFileUrl("20260202/Panda_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Designing.svg",
+    path: "./20260202/Panda_Designing.svg",
+    stem: "Panda_Designing",
+    title: "Panda Designing",
+    tokens: ["Panda","Designing"],
+    url: toFileUrl("20260202/Panda_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Fighting.svg",
+    path: "./20260202/Panda_Fighting.svg",
+    stem: "Panda_Fighting",
+    title: "Panda Fighting",
+    tokens: ["Panda","Fighting"],
+    url: toFileUrl("20260202/Panda_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Paper_Working.svg",
+    path: "./20260202/Panda_Paper_Working.svg",
+    stem: "Panda_Paper_Working",
+    title: "Panda Paper Working",
+    tokens: ["Panda","Paper","Working"],
+    url: toFileUrl("20260202/Panda_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Planning.svg",
+    path: "./20260202/Panda_Planning.svg",
+    stem: "Panda_Planning",
+    title: "Panda Planning",
+    tokens: ["Panda","Planning"],
+    url: toFileUrl("20260202/Panda_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Programming.svg",
+    path: "./20260202/Panda_Programming.svg",
+    stem: "Panda_Programming",
+    title: "Panda Programming",
+    tokens: ["Panda","Programming"],
+    url: toFileUrl("20260202/Panda_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Researching.svg",
+    path: "./20260202/Panda_Researching.svg",
+    stem: "Panda_Researching",
+    title: "Panda Researching",
+    tokens: ["Panda","Researching"],
+    url: toFileUrl("20260202/Panda_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Speaking.svg",
+    path: "./20260202/Panda_Speaking.svg",
+    stem: "Panda_Speaking",
+    title: "Panda Speaking",
+    tokens: ["Panda","Speaking"],
+    url: toFileUrl("20260202/Panda_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Spelling.svg",
+    path: "./20260202/Panda_Spelling.svg",
+    stem: "Panda_Spelling",
+    title: "Panda Spelling",
+    tokens: ["Panda","Spelling"],
+    url: toFileUrl("20260202/Panda_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Panda_Studying.svg",
+    path: "./20260202/Panda_Studying.svg",
+    stem: "Panda_Studying",
+    title: "Panda Studying",
+    tokens: ["Panda","Studying"],
+    url: toFileUrl("20260202/Panda_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Crafting.svg",
+    path: "./20260202/Rabbit_Crafting.svg",
+    stem: "Rabbit_Crafting",
+    title: "Rabbit Crafting",
+    tokens: ["Rabbit","Crafting"],
+    url: toFileUrl("20260202/Rabbit_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Designing.svg",
+    path: "./20260202/Rabbit_Designing.svg",
+    stem: "Rabbit_Designing",
+    title: "Rabbit Designing",
+    tokens: ["Rabbit","Designing"],
+    url: toFileUrl("20260202/Rabbit_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Fighting.svg",
+    path: "./20260202/Rabbit_Fighting.svg",
+    stem: "Rabbit_Fighting",
+    title: "Rabbit Fighting",
+    tokens: ["Rabbit","Fighting"],
+    url: toFileUrl("20260202/Rabbit_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Paper_Working.svg",
+    path: "./20260202/Rabbit_Paper_Working.svg",
+    stem: "Rabbit_Paper_Working",
+    title: "Rabbit Paper Working",
+    tokens: ["Rabbit","Paper","Working"],
+    url: toFileUrl("20260202/Rabbit_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Planning.svg",
+    path: "./20260202/Rabbit_Planning.svg",
+    stem: "Rabbit_Planning",
+    title: "Rabbit Planning",
+    tokens: ["Rabbit","Planning"],
+    url: toFileUrl("20260202/Rabbit_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Programming.svg",
+    path: "./20260202/Rabbit_Programming.svg",
+    stem: "Rabbit_Programming",
+    title: "Rabbit Programming",
+    tokens: ["Rabbit","Programming"],
+    url: toFileUrl("20260202/Rabbit_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Researching.svg",
+    path: "./20260202/Rabbit_Researching.svg",
+    stem: "Rabbit_Researching",
+    title: "Rabbit Researching",
+    tokens: ["Rabbit","Researching"],
+    url: toFileUrl("20260202/Rabbit_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Speaking.svg",
+    path: "./20260202/Rabbit_Speaking.svg",
+    stem: "Rabbit_Speaking",
+    title: "Rabbit Speaking",
+    tokens: ["Rabbit","Speaking"],
+    url: toFileUrl("20260202/Rabbit_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Spelling.svg",
+    path: "./20260202/Rabbit_Spelling.svg",
+    stem: "Rabbit_Spelling",
+    title: "Rabbit Spelling",
+    tokens: ["Rabbit","Spelling"],
+    url: toFileUrl("20260202/Rabbit_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rabbit_Studying.svg",
+    path: "./20260202/Rabbit_Studying.svg",
+    stem: "Rabbit_Studying",
+    title: "Rabbit Studying",
+    tokens: ["Rabbit","Studying"],
+    url: toFileUrl("20260202/Rabbit_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Crafting.svg",
+    path: "./20260202/Rhino_Crafting.svg",
+    stem: "Rhino_Crafting",
+    title: "Rhino Crafting",
+    tokens: ["Rhino","Crafting"],
+    url: toFileUrl("20260202/Rhino_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Designing.svg",
+    path: "./20260202/Rhino_Designing.svg",
+    stem: "Rhino_Designing",
+    title: "Rhino Designing",
+    tokens: ["Rhino","Designing"],
+    url: toFileUrl("20260202/Rhino_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Fighting.svg",
+    path: "./20260202/Rhino_Fighting.svg",
+    stem: "Rhino_Fighting",
+    title: "Rhino Fighting",
+    tokens: ["Rhino","Fighting"],
+    url: toFileUrl("20260202/Rhino_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Paper_Working.svg",
+    path: "./20260202/Rhino_Paper_Working.svg",
+    stem: "Rhino_Paper_Working",
+    title: "Rhino Paper Working",
+    tokens: ["Rhino","Paper","Working"],
+    url: toFileUrl("20260202/Rhino_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Planning.svg",
+    path: "./20260202/Rhino_Planning.svg",
+    stem: "Rhino_Planning",
+    title: "Rhino Planning",
+    tokens: ["Rhino","Planning"],
+    url: toFileUrl("20260202/Rhino_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Programming.svg",
+    path: "./20260202/Rhino_Programming.svg",
+    stem: "Rhino_Programming",
+    title: "Rhino Programming",
+    tokens: ["Rhino","Programming"],
+    url: toFileUrl("20260202/Rhino_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Researching.svg",
+    path: "./20260202/Rhino_Researching.svg",
+    stem: "Rhino_Researching",
+    title: "Rhino Researching",
+    tokens: ["Rhino","Researching"],
+    url: toFileUrl("20260202/Rhino_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Speaking.svg",
+    path: "./20260202/Rhino_Speaking.svg",
+    stem: "Rhino_Speaking",
+    title: "Rhino Speaking",
+    tokens: ["Rhino","Speaking"],
+    url: toFileUrl("20260202/Rhino_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Spelling.svg",
+    path: "./20260202/Rhino_Spelling.svg",
+    stem: "Rhino_Spelling",
+    title: "Rhino Spelling",
+    tokens: ["Rhino","Spelling"],
+    url: toFileUrl("20260202/Rhino_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Rhino_Studying.svg",
+    path: "./20260202/Rhino_Studying.svg",
+    stem: "Rhino_Studying",
+    title: "Rhino Studying",
+    tokens: ["Rhino","Studying"],
+    url: toFileUrl("20260202/Rhino_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Crafting.svg",
+    path: "./20260202/Shark_Crafting.svg",
+    stem: "Shark_Crafting",
+    title: "Shark Crafting",
+    tokens: ["Shark","Crafting"],
+    url: toFileUrl("20260202/Shark_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Designing.svg",
+    path: "./20260202/Shark_Designing.svg",
+    stem: "Shark_Designing",
+    title: "Shark Designing",
+    tokens: ["Shark","Designing"],
+    url: toFileUrl("20260202/Shark_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Fighting.svg",
+    path: "./20260202/Shark_Fighting.svg",
+    stem: "Shark_Fighting",
+    title: "Shark Fighting",
+    tokens: ["Shark","Fighting"],
+    url: toFileUrl("20260202/Shark_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Paper_Working.svg",
+    path: "./20260202/Shark_Paper_Working.svg",
+    stem: "Shark_Paper_Working",
+    title: "Shark Paper Working",
+    tokens: ["Shark","Paper","Working"],
+    url: toFileUrl("20260202/Shark_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Planning.svg",
+    path: "./20260202/Shark_Planning.svg",
+    stem: "Shark_Planning",
+    title: "Shark Planning",
+    tokens: ["Shark","Planning"],
+    url: toFileUrl("20260202/Shark_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Programming.svg",
+    path: "./20260202/Shark_Programming.svg",
+    stem: "Shark_Programming",
+    title: "Shark Programming",
+    tokens: ["Shark","Programming"],
+    url: toFileUrl("20260202/Shark_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Researching.svg",
+    path: "./20260202/Shark_Researching.svg",
+    stem: "Shark_Researching",
+    title: "Shark Researching",
+    tokens: ["Shark","Researching"],
+    url: toFileUrl("20260202/Shark_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Speaking.svg",
+    path: "./20260202/Shark_Speaking.svg",
+    stem: "Shark_Speaking",
+    title: "Shark Speaking",
+    tokens: ["Shark","Speaking"],
+    url: toFileUrl("20260202/Shark_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Spelling.svg",
+    path: "./20260202/Shark_Spelling.svg",
+    stem: "Shark_Spelling",
+    title: "Shark Spelling",
+    tokens: ["Shark","Spelling"],
+    url: toFileUrl("20260202/Shark_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Shark_Studying.svg",
+    path: "./20260202/Shark_Studying.svg",
+    stem: "Shark_Studying",
+    title: "Shark Studying",
+    tokens: ["Shark","Studying"],
+    url: toFileUrl("20260202/Shark_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Crafting.svg",
+    path: "./20260202/Sheep_Crafting.svg",
+    stem: "Sheep_Crafting",
+    title: "Sheep Crafting",
+    tokens: ["Sheep","Crafting"],
+    url: toFileUrl("20260202/Sheep_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Designing.svg",
+    path: "./20260202/Sheep_Designing.svg",
+    stem: "Sheep_Designing",
+    title: "Sheep Designing",
+    tokens: ["Sheep","Designing"],
+    url: toFileUrl("20260202/Sheep_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Fighting.svg",
+    path: "./20260202/Sheep_Fighting.svg",
+    stem: "Sheep_Fighting",
+    title: "Sheep Fighting",
+    tokens: ["Sheep","Fighting"],
+    url: toFileUrl("20260202/Sheep_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Paper_Working.svg",
+    path: "./20260202/Sheep_Paper_Working.svg",
+    stem: "Sheep_Paper_Working",
+    title: "Sheep Paper Working",
+    tokens: ["Sheep","Paper","Working"],
+    url: toFileUrl("20260202/Sheep_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Planning.svg",
+    path: "./20260202/Sheep_Planning.svg",
+    stem: "Sheep_Planning",
+    title: "Sheep Planning",
+    tokens: ["Sheep","Planning"],
+    url: toFileUrl("20260202/Sheep_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Programming.svg",
+    path: "./20260202/Sheep_Programming.svg",
+    stem: "Sheep_Programming",
+    title: "Sheep Programming",
+    tokens: ["Sheep","Programming"],
+    url: toFileUrl("20260202/Sheep_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Researching.svg",
+    path: "./20260202/Sheep_Researching.svg",
+    stem: "Sheep_Researching",
+    title: "Sheep Researching",
+    tokens: ["Sheep","Researching"],
+    url: toFileUrl("20260202/Sheep_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Speaking.svg",
+    path: "./20260202/Sheep_Speaking.svg",
+    stem: "Sheep_Speaking",
+    title: "Sheep Speaking",
+    tokens: ["Sheep","Speaking"],
+    url: toFileUrl("20260202/Sheep_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Spelling.svg",
+    path: "./20260202/Sheep_Spelling.svg",
+    stem: "Sheep_Spelling",
+    title: "Sheep Spelling",
+    tokens: ["Sheep","Spelling"],
+    url: toFileUrl("20260202/Sheep_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Sheep_Studying.svg",
+    path: "./20260202/Sheep_Studying.svg",
+    stem: "Sheep_Studying",
+    title: "Sheep Studying",
+    tokens: ["Sheep","Studying"],
+    url: toFileUrl("20260202/Sheep_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Crafting.svg",
+    path: "./20260202/Snake_Crafting.svg",
+    stem: "Snake_Crafting",
+    title: "Snake Crafting",
+    tokens: ["Snake","Crafting"],
+    url: toFileUrl("20260202/Snake_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Designing.svg",
+    path: "./20260202/Snake_Designing.svg",
+    stem: "Snake_Designing",
+    title: "Snake Designing",
+    tokens: ["Snake","Designing"],
+    url: toFileUrl("20260202/Snake_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Fighting.svg",
+    path: "./20260202/Snake_Fighting.svg",
+    stem: "Snake_Fighting",
+    title: "Snake Fighting",
+    tokens: ["Snake","Fighting"],
+    url: toFileUrl("20260202/Snake_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Paper_Working.svg",
+    path: "./20260202/Snake_Paper_Working.svg",
+    stem: "Snake_Paper_Working",
+    title: "Snake Paper Working",
+    tokens: ["Snake","Paper","Working"],
+    url: toFileUrl("20260202/Snake_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Planning.svg",
+    path: "./20260202/Snake_Planning.svg",
+    stem: "Snake_Planning",
+    title: "Snake Planning",
+    tokens: ["Snake","Planning"],
+    url: toFileUrl("20260202/Snake_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Programming.svg",
+    path: "./20260202/Snake_Programming.svg",
+    stem: "Snake_Programming",
+    title: "Snake Programming",
+    tokens: ["Snake","Programming"],
+    url: toFileUrl("20260202/Snake_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Researching.svg",
+    path: "./20260202/Snake_Researching.svg",
+    stem: "Snake_Researching",
+    title: "Snake Researching",
+    tokens: ["Snake","Researching"],
+    url: toFileUrl("20260202/Snake_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Speaking.svg",
+    path: "./20260202/Snake_Speaking.svg",
+    stem: "Snake_Speaking",
+    title: "Snake Speaking",
+    tokens: ["Snake","Speaking"],
+    url: toFileUrl("20260202/Snake_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Spelling.svg",
+    path: "./20260202/Snake_Spelling.svg",
+    stem: "Snake_Spelling",
+    title: "Snake Spelling",
+    tokens: ["Snake","Spelling"],
+    url: toFileUrl("20260202/Snake_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Snake_Studying.svg",
+    path: "./20260202/Snake_Studying.svg",
+    stem: "Snake_Studying",
+    title: "Snake Studying",
+    tokens: ["Snake","Studying"],
+    url: toFileUrl("20260202/Snake_Studying.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Crafting.svg",
+    path: "./20260202/Whale_Crafting.svg",
+    stem: "Whale_Crafting",
+    title: "Whale Crafting",
+    tokens: ["Whale","Crafting"],
+    url: toFileUrl("20260202/Whale_Crafting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Designing.svg",
+    path: "./20260202/Whale_Designing.svg",
+    stem: "Whale_Designing",
+    title: "Whale Designing",
+    tokens: ["Whale","Designing"],
+    url: toFileUrl("20260202/Whale_Designing.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Fighting.svg",
+    path: "./20260202/Whale_Fighting.svg",
+    stem: "Whale_Fighting",
+    title: "Whale Fighting",
+    tokens: ["Whale","Fighting"],
+    url: toFileUrl("20260202/Whale_Fighting.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Paper_Working.svg",
+    path: "./20260202/Whale_Paper_Working.svg",
+    stem: "Whale_Paper_Working",
+    title: "Whale Paper Working",
+    tokens: ["Whale","Paper","Working"],
+    url: toFileUrl("20260202/Whale_Paper_Working.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Planning.svg",
+    path: "./20260202/Whale_Planning.svg",
+    stem: "Whale_Planning",
+    title: "Whale Planning",
+    tokens: ["Whale","Planning"],
+    url: toFileUrl("20260202/Whale_Planning.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Programming.svg",
+    path: "./20260202/Whale_Programming.svg",
+    stem: "Whale_Programming",
+    title: "Whale Programming",
+    tokens: ["Whale","Programming"],
+    url: toFileUrl("20260202/Whale_Programming.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Researching.svg",
+    path: "./20260202/Whale_Researching.svg",
+    stem: "Whale_Researching",
+    title: "Whale Researching",
+    tokens: ["Whale","Researching"],
+    url: toFileUrl("20260202/Whale_Researching.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Speaking.svg",
+    path: "./20260202/Whale_Speaking.svg",
+    stem: "Whale_Speaking",
+    title: "Whale Speaking",
+    tokens: ["Whale","Speaking"],
+    url: toFileUrl("20260202/Whale_Speaking.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Spelling.svg",
+    path: "./20260202/Whale_Spelling.svg",
+    stem: "Whale_Spelling",
+    title: "Whale Spelling",
+    tokens: ["Whale","Spelling"],
+    url: toFileUrl("20260202/Whale_Spelling.svg")
+  },
+  {
+    batch: "20260202",
+    filename: "Whale_Studying.svg",
+    path: "./20260202/Whale_Studying.svg",
+    stem: "Whale_Studying",
+    title: "Whale Studying",
+    tokens: ["Whale","Studying"],
+    url: toFileUrl("20260202/Whale_Studying.svg")
   }
 ]);
 
 module.exports.avatars = avatars;
-module.exports.B260201 = Object.freeze({
-  BRAVE_WARRIOR_OWL: toFileUrl("20260201/Brave_Warrior_Owl_20260201061501.svg"),
-  CAPYBARA_CODING_SESSIONS: toFileUrl("20260201/Capybara_Coding_Sessions_20260201061509.svg"),
-  CAPYBARA_DESIGNING_3D_CUBE: toFileUrl("20260201/Capybara_Designing_3D_Cube_20260201061510.svg"),
-  CAPYBARA_RESEARCHING_3D_TRENDS: toFileUrl("20260201/Capybara_Researching_3D_Trends_20260201061510.svg"),
-  CAPYBARA_STUDYING_3D_THEORY: toFileUrl("20260201/Capybara_Studying_3D_Theory_20260201061510.svg"),
-  CAT_DESIGNING_3D_OBJECT: toFileUrl("20260201/Cat_Designing_3D_Object_20260201061502.svg"),
-  CAT_PAPER_CRAFTER: toFileUrl("20260201/Cat_Paper_Crafter_20260201061502.svg"),
-  CAT_RESEARCHING_3D_DATA: toFileUrl("20260201/Cat_Researching_3D_Data_20260201061502.svg"),
-  CAT_STUDYING_3D_THEORY: toFileUrl("20260201/Cat_Studying_3D_Theory_20260201061503.svg"),
-  CHIBI_BATTLE_GOAT: toFileUrl("20260201/Chibi_Battle_Goat_20260201061508.svg"),
-  CHIBI_CRAFTING_CAT_3D_DESIGN: toFileUrl("20260201/Chibi_Crafting_Cat___3D_Design_20260201061503.svg"),
-  CHIBI_CRAFTING_GOAT: toFileUrl("20260201/Chibi_Crafting_Goat_20260201061508.svg"),
-  CHIBI_CRAFTING_MOUSE: toFileUrl("20260201/Chibi_Crafting_Mouse_20260201061504.svg"),
-  CHIBI_DOG_CRAFTER: toFileUrl("20260201/Chibi_Dog_Crafter_20260201061502.svg"),
-  CHIBI_DOG_FIGHTER: toFileUrl("20260201/Chibi_Dog_Fighter_20260201061502.svg"),
-  CHIBI_DOG_RESEARCHER: toFileUrl("20260201/Chibi_Dog_Researcher_20260201061501.svg"),
-  CHIBI_DOG_SCHOLAR: toFileUrl("20260201/Chibi_Dog_Scholar_20260201061502.svg"),
-  CHIBI_DOG_SPELLING_ADVENTURE: toFileUrl("20260201/Chibi_Dog_Spelling_Adventure_20260201061502.svg"),
-  CHIBI_DRAGON_SPELLING_MASTER: toFileUrl("20260201/Chibi_Dragon_Spelling_Master_20260201061506.svg"),
-  CHIBI_ELEPHANT_SPELLER: toFileUrl("20260201/Chibi_Elephant_Speller_20260201061504.svg"),
-  CHIBI_GOAT_DESIGNING_3D_CUBE: toFileUrl("20260201/Chibi_Goat_Designing_3D_Cube_20260201061508.svg"),
-  CHIBI_GOAT_PLANNING_3D_BLUEPRINT: toFileUrl("20260201/Chibi_Goat_Planning_3D_Blueprint_20260201061508.svg"),
-  CHIBI_GOAT_RESEARCHING_UI_NODES: toFileUrl("20260201/Chibi_Goat_Researching_UI_Nodes_20260201061508.svg"),
-  CHIBI_GOAT_STUDYING_DIGITAL_MANUAL: toFileUrl("20260201/Chibi_Goat_Studying_Digital_Manual_20260201061508.svg"),
-  CHIBI_LOW_POLY_DESIGNING_SHEEP: toFileUrl("20260201/Chibi_Low_Poly_Designing_Sheep_20260201061507.svg"),
-  CHIBI_LOW_POLY_PAPER_WORKING_SHEEP: toFileUrl("20260201/Chibi_Low_Poly_Paper_Working_Sheep_20260201061507.svg"),
-  CHIBI_LOW_POLY_PLANNING_SHEEP: toFileUrl("20260201/Chibi_Low_Poly_Planning_Sheep_20260201061507.svg"),
-  CHIBI_LOW_POLY_PROGRAMMING_SHEEP: toFileUrl("20260201/Chibi_Low_Poly_Programming_Sheep_20260201061507.svg"),
-  CHIBI_LOW_POLY_SCHOLAR_DRAGON: toFileUrl("20260201/Chibi_Low_Poly_Scholar_Dragon_20260201061505.svg"),
-  CHIBI_OX_CRAFTING_3D: toFileUrl("20260201/Chibi_Ox_Crafting_3D_20260201061509.svg"),
-  CHIBI_OX_FIGHTING_3D: toFileUrl("20260201/Chibi_Ox_Fighting_3D_20260201061509.svg"),
-  CHIBI_OX_RESEARCHING_3D: toFileUrl("20260201/Chibi_Ox_Researching_3D_20260201061509.svg"),
-  CHIBI_OX_SPELLING_MASTERPIECE: toFileUrl("20260201/Chibi_Ox_Spelling_Masterpiece_20260201061509.svg"),
-  CHIBI_OX_STRATEGIC_PLANNER: toFileUrl("20260201/Chibi_Ox_Strategic_Planner_20260201061509.svg"),
-  CHIBI_OX_STUDYING_3D: toFileUrl("20260201/Chibi_Ox_Studying_3D_20260201061509.svg"),
-  CHIBI_OX_UI_DESIGNER: toFileUrl("20260201/Chibi_Ox_UI_Designer_20260201061509.svg"),
-  CHIBI_PANDA_SPELLING_ABC: toFileUrl("20260201/Chibi_Panda_Spelling_ABC_20260201061500.svg"),
-  CHIBI_SNAKE_STRATEGY_PLANNER: toFileUrl("20260201/Chibi_Snake_Strategy_Planner_20260201061506.svg"),
-  CHIBI_SPELLING_CAT: toFileUrl("20260201/Chibi_Spelling_Cat_20260201061503.svg"),
-  COMMUNICATOR_CHIBI_GOAT: toFileUrl("20260201/Communicator_Chibi_Goat_20260201061508.svg"),
-  CREATIVE_ARTISAN_OWL: toFileUrl("20260201/Creative_Artisan_Owl_20260201061501.svg"),
-  CREATIVE_CAPYBARA_ARCHITECT: toFileUrl("20260201/Creative_Capybara_Architect_20260201061510.svg"),
-  CREATIVE_CHIBI_ARTIST_DRAGON: toFileUrl("20260201/Creative_Chibi_Artist_Dragon_20260201061505.svg"),
-  CREATIVE_SNAKE_3D_ARTIST: toFileUrl("20260201/Creative_Snake_3D_Artist_20260201061506.svg"),
-  CYBER_CHIBI_PROGRAMMER_CAT: toFileUrl("20260201/Cyber_Chibi_Programmer_Cat_20260201061502.svg"),
-  CYBER_CHIBI_PROGRAMMING_DRAGON: toFileUrl("20260201/Cyber_Chibi_Programming_Dragon_20260201061505.svg"),
-  DATA_FLOW_STUDYING_SHEEP: toFileUrl("20260201/Data_Flow_Studying_Sheep_20260201061507.svg"),
-  DESIGNING_OWL_DIGITAL_SCULPTING: toFileUrl("20260201/Designing_Owl___Digital_Sculpting_20260201061500.svg"),
-  DIGITAL_CRAFT_ELEPHANT: toFileUrl("20260201/Digital_Craft_Elephant_20260201061504.svg"),
-  DILIGENT_CAPYBARA_PAPERWORK: toFileUrl("20260201/Diligent_Capybara_Paperwork_20260201061509.svg"),
-  DILIGENT_MOUSE_WRITER: toFileUrl("20260201/Diligent_Mouse_Writer_20260201061504.svg"),
-  DOG_DESIGNING: toFileUrl("20260201/Dog_Designing_20260201061501.svg"),
-  DOG_PAPER_WORKING: toFileUrl("20260201/Dog_Paper_Working_20260201061501.svg"),
-  DOG_PLANNING: toFileUrl("20260201/Dog_Planning_20260201061501.svg"),
-  DYNAMIC_FIGHT_DRAGON: toFileUrl("20260201/Dynamic_Fight_Dragon_20260201061505.svg"),
-  EDUCATIONAL_SPELLING_CAPYBARA: toFileUrl("20260201/Educational_Spelling_Capybara_20260201061510.svg"),
-  ELEPHANT_PAPER_WORKER_LOW_POLY: toFileUrl("20260201/Elephant_Paper_Worker_Low_Poly_20260201061503.svg"),
-  ELEPHANT_PROGRAMMER_CHIBI: toFileUrl("20260201/Elephant_Programmer_Chibi_20260201061503.svg"),
-  ELEPHANT_RESEARCHER_HOLOGRAM: toFileUrl("20260201/Elephant_Researcher_Hologram_20260201061503.svg"),
-  ELEPHANT_SCHOLAR_3D_STUDY: toFileUrl("20260201/Elephant_Scholar_3D_Study_20260201061503.svg"),
-  ELEPHANT_STRATEGIC_PLANNER: toFileUrl("20260201/Elephant_Strategic_Planner_20260201061503.svg"),
-  ELOQUENT_ORATOR_OWL: toFileUrl("20260201/Eloquent_Orator_Owl_20260201061501.svg"),
-  ELOQUENT_SPEAKING_CAPYBARA: toFileUrl("20260201/Eloquent_Speaking_Capybara_20260201061510.svg"),
-  FOX_PAPER_WORKER: toFileUrl("20260201/Fox_Paper_Worker_20260201061510.svg"),
-  FOX_PROGRAMMING_CODER: toFileUrl("20260201/Fox_Programming_Coder_20260201061510.svg"),
-  FOX_STRATEGY_PLANNER: toFileUrl("20260201/Fox_Strategy_Planner_20260201061510.svg"),
-  GEOMETRIC_STUDY_DRAGON: toFileUrl("20260201/Geometric_Study_Dragon_20260201061505.svg"),
-  GOAT_ORIGAMI_ARTIST: toFileUrl("20260201/Goat_Origami_Artist_20260201061508.svg"),
-  HARD_WORKING_CODER_GOAT: toFileUrl("20260201/Hard_Working_Coder_Goat_20260201061508.svg"),
-  LOW_POLY_DRAGON_SPEAKER: toFileUrl("20260201/Low_Poly_Dragon_Speaker_20260201061506.svg"),
-  LOW_POLY_ELEPHANT_WARRIOR: toFileUrl("20260201/Low_Poly_Elephant_Warrior_20260201061504.svg"),
-  LOW_POLY_FIGHTING_CAT: toFileUrl("20260201/Low_Poly_Fighting_Cat_20260201061503.svg"),
-  LOW_POLY_RESEARCH_DRAGON: toFileUrl("20260201/Low_Poly_Research_Dragon_20260201061505.svg"),
-  LOW_POLY_RESEARCHING_SHEEP: toFileUrl("20260201/Low_Poly_Researching_Sheep_20260201061507.svg"),
-  LOW_POLY_SPEAKING_DOG: toFileUrl("20260201/Low_Poly_Speaking_Dog_20260201061502.svg"),
-  MOUSE_ARCHITECT_PLANNING: toFileUrl("20260201/Mouse_Architect_Planning_20260201061504.svg"),
-  MOUSE_DESIGNER_CREATIVE: toFileUrl("20260201/Mouse_Designer_Creative_20260201061504.svg"),
-  MYSTIC_SCHOLAR_OWL: toFileUrl("20260201/Mystic_Scholar_Owl_20260201061501.svg"),
-  ORIGAMI_SNAKE_CRAFTSMAN: toFileUrl("20260201/Origami_Snake_Craftsman_20260201061506.svg"),
-  PANDA_CODE_MASTER: toFileUrl("20260201/Panda_Code_Master_20260201061459.svg"),
-  PANDA_CRAFTING_3D: toFileUrl("20260201/Panda_Crafting_3D_20260201061500.svg"),
-  PANDA_CREATIVE_DESIGNER: toFileUrl("20260201/Panda_Creative_Designer_20260201061500.svg"),
-  PANDA_FIGHTING_3D: toFileUrl("20260201/Panda_Fighting_3D_20260201061500.svg"),
-  PANDA_PAPER_ARCHITECT: toFileUrl("20260201/Panda_Paper_Architect_20260201061459.svg"),
-  PANDA_RESEARCHING_3D: toFileUrl("20260201/Panda_Researching_3D_20260201061500.svg"),
-  PANDA_STRATEGIC_PLANNER: toFileUrl("20260201/Panda_Strategic_Planner_20260201061459.svg"),
-  PANDA_STUDYING_3D: toFileUrl("20260201/Panda_Studying_3D_20260201061500.svg"),
-  PLANNING_OWL_3D_BLUEPRINT: toFileUrl("20260201/Planning_Owl___3D_Blueprint_20260201061500.svg"),
-  POLYGON_FIGHTER_SHEEP: toFileUrl("20260201/Polygon_Fighter_Sheep_20260201061507.svg"),
-  RESEARCHING_OWL_POLYGON_ANALYSIS: toFileUrl("20260201/Researching_Owl___Polygon_Analysis_20260201061501.svg"),
-  SCHOLAR_MOUSE_SPELLING: toFileUrl("20260201/Scholar_Mouse_Spelling_20260201061505.svg"),
-  SNAKE_DATA_INVESTIGATOR: toFileUrl("20260201/Snake_Data_Investigator_20260201061506.svg"),
-  SNAKE_DEVELOPER_PRO: toFileUrl("20260201/Snake_Developer_Pro_20260201061506.svg"),
-  SNAKE_SCHOLAR_STUDENT: toFileUrl("20260201/Snake_Scholar_Student_20260201061506.svg"),
-  SPEAKING_CHIBI_CAT: toFileUrl("20260201/Speaking_Chibi_Cat_20260201061503.svg"),
-  SPELLING_MASTER_GOAT: toFileUrl("20260201/Spelling_Master_Goat_20260201061508.svg"),
-  STRATEGIC_CHIBI_PLANNING_DRAGON: toFileUrl("20260201/Strategic_Chibi_Planning_Dragon_20260201061505.svg"),
-  STUDYING_OWL_MESH_FUNDAMENTALS: toFileUrl("20260201/Studying_Owl___Mesh_Fundamentals_20260201061501.svg"),
-  TECH_OWL_PROGRAMMING: toFileUrl("20260201/Tech_Owl_Programming_20260201061500.svg"),
-  TECH_SAVVY_MOUSE_CODER: toFileUrl("20260201/Tech_Savvy_Mouse_Coder_20260201061504.svg"),
-  THE_MASTER_CRAFTER_SNAKE: toFileUrl("20260201/The_Master_Crafter_Snake_20260201061506.svg"),
-  THE_ORATOR_SPEAKING_SNAKE: toFileUrl("20260201/The_Orator_Speaking_Snake_20260201061507.svg"),
-  THE_SCHOLAR_SPELLING_SNAKE: toFileUrl("20260201/The_Scholar_Spelling_Snake_20260201061506.svg"),
-  VERTEX_CRAFTING_SHEEP: toFileUrl("20260201/Vertex_Crafting_Sheep_20260201061507.svg"),
-  VOCAL_CHIBI_OX_SPEAKING: toFileUrl("20260201/Vocal_Chibi_Ox_Speaking_20260201061509.svg"),
-  VOCAL_CHIBI_PANDA: toFileUrl("20260201/Vocal_Chibi_Panda_20260201061500.svg"),
-  VOCAL_LOW_POLY_ELEPHANT: toFileUrl("20260201/Vocal_Low_Poly_Elephant_20260201061504.svg"),
-  VOCALIST_MOUSE_SPEAKING: toFileUrl("20260201/Vocalist_Mouse_Speaking_20260201061505.svg"),
-  WARRIOR_CAPYBARA_STRIKE: toFileUrl("20260201/Warrior_Capybara_Strike_20260201061510.svg"),
-  WARRIOR_MOUSE_COMBAT: toFileUrl("20260201/Warrior_Mouse_Combat_20260201061505.svg"),
-});
-module.exports.batches = Object.freeze({
-  B260201: module.exports.B260201,
-});

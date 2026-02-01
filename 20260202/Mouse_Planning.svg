@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    
+    <style>
+      /* Global Floating Animation */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .avatar-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      /* Eye Blink */
+      @keyframes blink {
+        0%, 96%, 100% { transform: scaleY(1); }
+        98% { transform: scaleY(0.1); }
+      }
+      .eye-anim {
+        transform-origin: center;
+        animation: blink 4s infinite;
+      }
+      
+      /* Specific Animations */
+      @keyframes ear-twitch { 0%, 95%, 100% { transform: rotate(0deg); } 97% { transform: rotate(5deg); } }
+      .ear-l { transform-origin: center bottom; animation: ear-twitch 5s infinite; }
+      .ear-r { transform-origin: center bottom; animation: ear-twitch 5s infinite; animation-delay: 0.5s; }
+      
+      @keyframes sheen { 0%, 90% { opacity: 0; transform: translateX(-20px) rotate(45deg); } 95% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(20px) rotate(45deg); } }
+      .lens-sheen { animation: sheen 6s infinite; }
+    </style>
+
+    <filter id="pixel-cutter-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- 1. Refined Outline (Thinner, softer gold) -->
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="thick"/>
+      <feFlood flood-color="#F4D03F" result="gold"/>
+      <feComposite in="gold" in2="thick" operator="in" result="outline"/>
+      
+      <!-- 2. Subtle Shadow -->
+      <feGaussianBlur in="thick" stdDeviation="2" result="shadowBlur"/>
+      <feOffset in="shadowBlur" dx="2" dy="2" result="shadowOffset"/>
+      <feFlood flood-color="#000" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="shadowOffset" operator="in" result="shadow"/>
+      
+      <!-- 3. Minimal Gloss (Just a hint of material) -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.1" specularExponent="20" lighting-color="#FFF" result="specular">
+        <fePointLight x="-5000" y="-10000" z="10000"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceAlpha" operator="in" result="specularOut"/>
+
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="specularOut"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  <g filter="url(#pixel-cutter-filter)">
+    <g class="avatar-body" transform="translate(0, 20) scale(0.85) translate(51.2, 51.2)">
+      
+    <g>
+      <circle cx="150" cy="150" r="55" fill="#909497" class="ear-l"/>
+      <circle cx="150" cy="150" r="35" fill="#E5E8E8" class="ear-l"/>
+      <circle cx="362" cy="150" r="55" fill="#909497" class="ear-r"/>
+      <circle cx="362" cy="150" r="35" fill="#E5E8E8" class="ear-r"/>
+      <path d="M256 160 L330 220 L300 340 L256 380 L212 340 L182 220 Z" fill="#BDC3C7"/>
+      <circle cx="220" cy="240" r="10" fill="#2C3E50" class="eye-anim"/>
+      <circle cx="292" cy="240" r="10" fill="#2C3E50" class="eye-anim"/>
+      <circle cx="256" cy="380" r="15" fill="#F39C12"/>
+      <line x1="220" y1="340" x2="140" y2="320" stroke="#555" stroke-width="3"/>
+      <line x1="220" y1="360" x2="140" y2="370" stroke="#555" stroke-width="3"/>
+      <line x1="292" y1="340" x2="372" y2="320" stroke="#555" stroke-width="3"/>
+      <line x1="292" y1="360" x2="372" y2="370" stroke="#555" stroke-width="3"/>
+    </g>
+      
+      <circle cx="310" cy="220" r="30" fill="rgba(200,230,255,0.2)" stroke="#F39C12" stroke-width="5"/>
+      <path d="M340 220 L340 330" stroke="#F39C12" stroke-width="3"/>
+      <g transform="translate(180, 390)">
+        <rect x="0" y="0" width="160" height="45" rx="5" fill="#3498DB"/>
+        <rect x="10" y="8" width="140" height="2" fill="rgba(255,255,255,0.3)"/>
+        <rect x="10" y="18" width="140" height="2" fill="rgba(255,255,255,0.3)"/>
+        <rect x="140" y="-5" width="15" height="55" fill="#2980B9"/>
+      </g>
+    
+    </g>
+  </g>
+</svg>

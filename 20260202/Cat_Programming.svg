@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    
+    <style>
+      /* Global Floating Animation */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .avatar-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      /* Eye Blink */
+      @keyframes blink {
+        0%, 96%, 100% { transform: scaleY(1); }
+        98% { transform: scaleY(0.1); }
+      }
+      .eye-anim {
+        transform-origin: center;
+        animation: blink 4s infinite;
+      }
+      
+      /* Specific Animations */
+      @keyframes ear-twitch { 0%, 95%, 100% { transform: rotate(0deg); } 97% { transform: rotate(5deg); } }
+      .ear-l { transform-origin: center bottom; animation: ear-twitch 5s infinite; }
+      .ear-r { transform-origin: center bottom; animation: ear-twitch 5s infinite; animation-delay: 0.5s; }
+      
+      @keyframes sheen { 0%, 90% { opacity: 0; transform: translateX(-20px) rotate(45deg); } 95% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(20px) rotate(45deg); } }
+      .lens-sheen { animation: sheen 6s infinite; }
+    </style>
+
+    <filter id="pixel-cutter-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- 1. Refined Outline (Thinner, softer gold) -->
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="thick"/>
+      <feFlood flood-color="#F4D03F" result="gold"/>
+      <feComposite in="gold" in2="thick" operator="in" result="outline"/>
+      
+      <!-- 2. Subtle Shadow -->
+      <feGaussianBlur in="thick" stdDeviation="2" result="shadowBlur"/>
+      <feOffset in="shadowBlur" dx="2" dy="2" result="shadowOffset"/>
+      <feFlood flood-color="#000" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="shadowOffset" operator="in" result="shadow"/>
+      
+      <!-- 3. Minimal Gloss (Just a hint of material) -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.1" specularExponent="20" lighting-color="#FFF" result="specular">
+        <fePointLight x="-5000" y="-10000" z="10000"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceAlpha" operator="in" result="specularOut"/>
+
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="specularOut"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  <g filter="url(#pixel-cutter-filter)">
+    <g class="avatar-body" transform="translate(0, 20) scale(0.85) translate(51.2, 51.2)">
+      
+    <g>
+      <!-- Ears (Triangle on top, better perspective) -->
+      <path d="M160 160 L130 50 L220 140 Z" fill="#7F8C8D" class="ear-l"/>
+      <path d="M165 150 L145 80 L200 130 Z" fill="#BDC3C7" class="ear-l"/>
+      
+      <path d="M352 160 L382 50 L292 140 Z" fill="#7F8C8D" class="ear-r"/>
+      <path d="M347 150 L367 80 L312 130 Z" fill="#BDC3C7" class="ear-r"/>
+      
+      <!-- Head (Wide cheeks, soft pentagon) -->
+      <path d="M200 120 L312 120 L370 220 L350 340 L256 380 L162 340 L142 220 Z" fill="#95A5A6"/>
+      
+      <!-- Forehead Markings -->
+      <path d="M256 120 L312 120 L370 220 L256 260 Z" fill="#BDC3C7" opacity="0.3"/>
+      
+      <!-- Eyes (Big, Cat-like pupils) -->
+      <ellipse cx="200" cy="230" rx="22" ry="28" fill="#F1C40F" class="eye-anim"/>
+      <ellipse cx="312" cy="230" rx="22" ry="28" fill="#F1C40F" class="eye-anim"/>
+      <ellipse cx="200" cy="230" rx="6" ry="20" fill="#17202A"/> <!-- Vertical Pupil -->
+      <ellipse cx="312" cy="230" rx="6" ry="20" fill="#17202A"/>
+      
+      <!-- Snout/Mouth -->
+      <path d="M246 310 L266 310 L256 325 Z" fill="#E91E63"/>
+      <path d="M256 325 L240 340 M256 325 L272 340" stroke="#2C3E50" stroke-width="3" fill="none"/>
+      
+      <!-- Whiskers -->
+      <line x1="160" y1="300" x2="100" y2="290" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+      <line x1="160" y1="320" x2="110" y2="330" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+      <line x1="352" y1="300" x2="412" y2="290" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+      <line x1="352" y1="320" x2="402" y2="330" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+    </g>
+      
+      <g transform="translate(136, 310)">
+        <rect x="-5" y="-5" width="250" height="130" rx="10" fill="rgba(0, 230, 118, 0.1)"/> <!-- Glow -->
+        <rect x="0" y="0" width="240" height="120" rx="8" fill="rgba(10, 25, 10, 0.9)" stroke="#00E676" stroke-width="2"/>
+        <text x="15" y="35" fill="#00E676" font-family="monospace" font-size="14" font-weight="bold">&gt; RUN AGENT</text>
+        <text x="15" y="60" fill="#00E676" font-family="monospace" font-size="14">&gt; status: active</text>
+        <rect x="15" y="80" width="120" height="12" fill="#00E676" opacity="0.4" class="lens-sheen"/>
+      </g>
+      <path d="M140 200 Q120 100 256 100 Q392 100 372 200" stroke="#222" stroke-width="10" fill="none" opacity="0.8"/>
+      <rect x="110" y="170" width="35" height="65" rx="8" fill="#111"/>
+      <rect x="367" y="170" width="35" height="65" rx="8" fill="#111"/>
+    
+    </g>
+  </g>
+</svg>

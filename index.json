@@ -1490,5 +1490,1892 @@
       "Combat"
     ],
     "timestamp": "20260201061505"
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Crafting.svg",
+    "path": "./20260202/Capybara_Crafting.svg",
+    "stem": "Capybara_Crafting",
+    "title": "Capybara Crafting",
+    "tokens": [
+      "Capybara",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Designing.svg",
+    "path": "./20260202/Capybara_Designing.svg",
+    "stem": "Capybara_Designing",
+    "title": "Capybara Designing",
+    "tokens": [
+      "Capybara",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Fighting.svg",
+    "path": "./20260202/Capybara_Fighting.svg",
+    "stem": "Capybara_Fighting",
+    "title": "Capybara Fighting",
+    "tokens": [
+      "Capybara",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Paper_Working.svg",
+    "path": "./20260202/Capybara_Paper_Working.svg",
+    "stem": "Capybara_Paper_Working",
+    "title": "Capybara Paper Working",
+    "tokens": [
+      "Capybara",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Planning.svg",
+    "path": "./20260202/Capybara_Planning.svg",
+    "stem": "Capybara_Planning",
+    "title": "Capybara Planning",
+    "tokens": [
+      "Capybara",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Programming.svg",
+    "path": "./20260202/Capybara_Programming.svg",
+    "stem": "Capybara_Programming",
+    "title": "Capybara Programming",
+    "tokens": [
+      "Capybara",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Researching.svg",
+    "path": "./20260202/Capybara_Researching.svg",
+    "stem": "Capybara_Researching",
+    "title": "Capybara Researching",
+    "tokens": [
+      "Capybara",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Speaking.svg",
+    "path": "./20260202/Capybara_Speaking.svg",
+    "stem": "Capybara_Speaking",
+    "title": "Capybara Speaking",
+    "tokens": [
+      "Capybara",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Spelling.svg",
+    "path": "./20260202/Capybara_Spelling.svg",
+    "stem": "Capybara_Spelling",
+    "title": "Capybara Spelling",
+    "tokens": [
+      "Capybara",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Capybara_Studying.svg",
+    "path": "./20260202/Capybara_Studying.svg",
+    "stem": "Capybara_Studying",
+    "title": "Capybara Studying",
+    "tokens": [
+      "Capybara",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Crafting.svg",
+    "path": "./20260202/Cat_Crafting.svg",
+    "stem": "Cat_Crafting",
+    "title": "Cat Crafting",
+    "tokens": [
+      "Cat",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Designing.svg",
+    "path": "./20260202/Cat_Designing.svg",
+    "stem": "Cat_Designing",
+    "title": "Cat Designing",
+    "tokens": [
+      "Cat",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Fighting.svg",
+    "path": "./20260202/Cat_Fighting.svg",
+    "stem": "Cat_Fighting",
+    "title": "Cat Fighting",
+    "tokens": [
+      "Cat",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Paper_Working.svg",
+    "path": "./20260202/Cat_Paper_Working.svg",
+    "stem": "Cat_Paper_Working",
+    "title": "Cat Paper Working",
+    "tokens": [
+      "Cat",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Planning.svg",
+    "path": "./20260202/Cat_Planning.svg",
+    "stem": "Cat_Planning",
+    "title": "Cat Planning",
+    "tokens": [
+      "Cat",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Programming.svg",
+    "path": "./20260202/Cat_Programming.svg",
+    "stem": "Cat_Programming",
+    "title": "Cat Programming",
+    "tokens": [
+      "Cat",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Researching.svg",
+    "path": "./20260202/Cat_Researching.svg",
+    "stem": "Cat_Researching",
+    "title": "Cat Researching",
+    "tokens": [
+      "Cat",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Speaking.svg",
+    "path": "./20260202/Cat_Speaking.svg",
+    "stem": "Cat_Speaking",
+    "title": "Cat Speaking",
+    "tokens": [
+      "Cat",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Spelling.svg",
+    "path": "./20260202/Cat_Spelling.svg",
+    "stem": "Cat_Spelling",
+    "title": "Cat Spelling",
+    "tokens": [
+      "Cat",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Cat_Studying.svg",
+    "path": "./20260202/Cat_Studying.svg",
+    "stem": "Cat_Studying",
+    "title": "Cat Studying",
+    "tokens": [
+      "Cat",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Crafting.svg",
+    "path": "./20260202/Dog_Crafting.svg",
+    "stem": "Dog_Crafting",
+    "title": "Dog Crafting",
+    "tokens": [
+      "Dog",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Designing.svg",
+    "path": "./20260202/Dog_Designing.svg",
+    "stem": "Dog_Designing",
+    "title": "Dog Designing",
+    "tokens": [
+      "Dog",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Fighting.svg",
+    "path": "./20260202/Dog_Fighting.svg",
+    "stem": "Dog_Fighting",
+    "title": "Dog Fighting",
+    "tokens": [
+      "Dog",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Paper_Working.svg",
+    "path": "./20260202/Dog_Paper_Working.svg",
+    "stem": "Dog_Paper_Working",
+    "title": "Dog Paper Working",
+    "tokens": [
+      "Dog",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Planning.svg",
+    "path": "./20260202/Dog_Planning.svg",
+    "stem": "Dog_Planning",
+    "title": "Dog Planning",
+    "tokens": [
+      "Dog",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Programming.svg",
+    "path": "./20260202/Dog_Programming.svg",
+    "stem": "Dog_Programming",
+    "title": "Dog Programming",
+    "tokens": [
+      "Dog",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Researching.svg",
+    "path": "./20260202/Dog_Researching.svg",
+    "stem": "Dog_Researching",
+    "title": "Dog Researching",
+    "tokens": [
+      "Dog",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Speaking.svg",
+    "path": "./20260202/Dog_Speaking.svg",
+    "stem": "Dog_Speaking",
+    "title": "Dog Speaking",
+    "tokens": [
+      "Dog",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Spelling.svg",
+    "path": "./20260202/Dog_Spelling.svg",
+    "stem": "Dog_Spelling",
+    "title": "Dog Spelling",
+    "tokens": [
+      "Dog",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dog_Studying.svg",
+    "path": "./20260202/Dog_Studying.svg",
+    "stem": "Dog_Studying",
+    "title": "Dog Studying",
+    "tokens": [
+      "Dog",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Crafting.svg",
+    "path": "./20260202/Dragon_Crafting.svg",
+    "stem": "Dragon_Crafting",
+    "title": "Dragon Crafting",
+    "tokens": [
+      "Dragon",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Designing.svg",
+    "path": "./20260202/Dragon_Designing.svg",
+    "stem": "Dragon_Designing",
+    "title": "Dragon Designing",
+    "tokens": [
+      "Dragon",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Fighting.svg",
+    "path": "./20260202/Dragon_Fighting.svg",
+    "stem": "Dragon_Fighting",
+    "title": "Dragon Fighting",
+    "tokens": [
+      "Dragon",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Paper_Working.svg",
+    "path": "./20260202/Dragon_Paper_Working.svg",
+    "stem": "Dragon_Paper_Working",
+    "title": "Dragon Paper Working",
+    "tokens": [
+      "Dragon",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Planning.svg",
+    "path": "./20260202/Dragon_Planning.svg",
+    "stem": "Dragon_Planning",
+    "title": "Dragon Planning",
+    "tokens": [
+      "Dragon",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Programming.svg",
+    "path": "./20260202/Dragon_Programming.svg",
+    "stem": "Dragon_Programming",
+    "title": "Dragon Programming",
+    "tokens": [
+      "Dragon",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Researching.svg",
+    "path": "./20260202/Dragon_Researching.svg",
+    "stem": "Dragon_Researching",
+    "title": "Dragon Researching",
+    "tokens": [
+      "Dragon",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Speaking.svg",
+    "path": "./20260202/Dragon_Speaking.svg",
+    "stem": "Dragon_Speaking",
+    "title": "Dragon Speaking",
+    "tokens": [
+      "Dragon",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Spelling.svg",
+    "path": "./20260202/Dragon_Spelling.svg",
+    "stem": "Dragon_Spelling",
+    "title": "Dragon Spelling",
+    "tokens": [
+      "Dragon",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Dragon_Studying.svg",
+    "path": "./20260202/Dragon_Studying.svg",
+    "stem": "Dragon_Studying",
+    "title": "Dragon Studying",
+    "tokens": [
+      "Dragon",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Crafting.svg",
+    "path": "./20260202/Elephant_Crafting.svg",
+    "stem": "Elephant_Crafting",
+    "title": "Elephant Crafting",
+    "tokens": [
+      "Elephant",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Designing.svg",
+    "path": "./20260202/Elephant_Designing.svg",
+    "stem": "Elephant_Designing",
+    "title": "Elephant Designing",
+    "tokens": [
+      "Elephant",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Fighting.svg",
+    "path": "./20260202/Elephant_Fighting.svg",
+    "stem": "Elephant_Fighting",
+    "title": "Elephant Fighting",
+    "tokens": [
+      "Elephant",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Paper_Working.svg",
+    "path": "./20260202/Elephant_Paper_Working.svg",
+    "stem": "Elephant_Paper_Working",
+    "title": "Elephant Paper Working",
+    "tokens": [
+      "Elephant",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Planning.svg",
+    "path": "./20260202/Elephant_Planning.svg",
+    "stem": "Elephant_Planning",
+    "title": "Elephant Planning",
+    "tokens": [
+      "Elephant",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Programming.svg",
+    "path": "./20260202/Elephant_Programming.svg",
+    "stem": "Elephant_Programming",
+    "title": "Elephant Programming",
+    "tokens": [
+      "Elephant",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Researching.svg",
+    "path": "./20260202/Elephant_Researching.svg",
+    "stem": "Elephant_Researching",
+    "title": "Elephant Researching",
+    "tokens": [
+      "Elephant",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Speaking.svg",
+    "path": "./20260202/Elephant_Speaking.svg",
+    "stem": "Elephant_Speaking",
+    "title": "Elephant Speaking",
+    "tokens": [
+      "Elephant",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Spelling.svg",
+    "path": "./20260202/Elephant_Spelling.svg",
+    "stem": "Elephant_Spelling",
+    "title": "Elephant Spelling",
+    "tokens": [
+      "Elephant",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Elephant_Studying.svg",
+    "path": "./20260202/Elephant_Studying.svg",
+    "stem": "Elephant_Studying",
+    "title": "Elephant Studying",
+    "tokens": [
+      "Elephant",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Crafting.svg",
+    "path": "./20260202/Fox_Crafting.svg",
+    "stem": "Fox_Crafting",
+    "title": "Fox Crafting",
+    "tokens": [
+      "Fox",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Designing.svg",
+    "path": "./20260202/Fox_Designing.svg",
+    "stem": "Fox_Designing",
+    "title": "Fox Designing",
+    "tokens": [
+      "Fox",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Fighting.svg",
+    "path": "./20260202/Fox_Fighting.svg",
+    "stem": "Fox_Fighting",
+    "title": "Fox Fighting",
+    "tokens": [
+      "Fox",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Paper_Working.svg",
+    "path": "./20260202/Fox_Paper_Working.svg",
+    "stem": "Fox_Paper_Working",
+    "title": "Fox Paper Working",
+    "tokens": [
+      "Fox",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Planning.svg",
+    "path": "./20260202/Fox_Planning.svg",
+    "stem": "Fox_Planning",
+    "title": "Fox Planning",
+    "tokens": [
+      "Fox",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Programming.svg",
+    "path": "./20260202/Fox_Programming.svg",
+    "stem": "Fox_Programming",
+    "title": "Fox Programming",
+    "tokens": [
+      "Fox",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Researching.svg",
+    "path": "./20260202/Fox_Researching.svg",
+    "stem": "Fox_Researching",
+    "title": "Fox Researching",
+    "tokens": [
+      "Fox",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Speaking.svg",
+    "path": "./20260202/Fox_Speaking.svg",
+    "stem": "Fox_Speaking",
+    "title": "Fox Speaking",
+    "tokens": [
+      "Fox",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Spelling.svg",
+    "path": "./20260202/Fox_Spelling.svg",
+    "stem": "Fox_Spelling",
+    "title": "Fox Spelling",
+    "tokens": [
+      "Fox",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Fox_Studying.svg",
+    "path": "./20260202/Fox_Studying.svg",
+    "stem": "Fox_Studying",
+    "title": "Fox Studying",
+    "tokens": [
+      "Fox",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Crafting.svg",
+    "path": "./20260202/Goat_Crafting.svg",
+    "stem": "Goat_Crafting",
+    "title": "Goat Crafting",
+    "tokens": [
+      "Goat",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Designing.svg",
+    "path": "./20260202/Goat_Designing.svg",
+    "stem": "Goat_Designing",
+    "title": "Goat Designing",
+    "tokens": [
+      "Goat",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Fighting.svg",
+    "path": "./20260202/Goat_Fighting.svg",
+    "stem": "Goat_Fighting",
+    "title": "Goat Fighting",
+    "tokens": [
+      "Goat",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Paper_Working.svg",
+    "path": "./20260202/Goat_Paper_Working.svg",
+    "stem": "Goat_Paper_Working",
+    "title": "Goat Paper Working",
+    "tokens": [
+      "Goat",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Planning.svg",
+    "path": "./20260202/Goat_Planning.svg",
+    "stem": "Goat_Planning",
+    "title": "Goat Planning",
+    "tokens": [
+      "Goat",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Programming.svg",
+    "path": "./20260202/Goat_Programming.svg",
+    "stem": "Goat_Programming",
+    "title": "Goat Programming",
+    "tokens": [
+      "Goat",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Researching.svg",
+    "path": "./20260202/Goat_Researching.svg",
+    "stem": "Goat_Researching",
+    "title": "Goat Researching",
+    "tokens": [
+      "Goat",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Speaking.svg",
+    "path": "./20260202/Goat_Speaking.svg",
+    "stem": "Goat_Speaking",
+    "title": "Goat Speaking",
+    "tokens": [
+      "Goat",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Spelling.svg",
+    "path": "./20260202/Goat_Spelling.svg",
+    "stem": "Goat_Spelling",
+    "title": "Goat Spelling",
+    "tokens": [
+      "Goat",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Goat_Studying.svg",
+    "path": "./20260202/Goat_Studying.svg",
+    "stem": "Goat_Studying",
+    "title": "Goat Studying",
+    "tokens": [
+      "Goat",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Crafting.svg",
+    "path": "./20260202/Mouse_Crafting.svg",
+    "stem": "Mouse_Crafting",
+    "title": "Mouse Crafting",
+    "tokens": [
+      "Mouse",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Designing.svg",
+    "path": "./20260202/Mouse_Designing.svg",
+    "stem": "Mouse_Designing",
+    "title": "Mouse Designing",
+    "tokens": [
+      "Mouse",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Fighting.svg",
+    "path": "./20260202/Mouse_Fighting.svg",
+    "stem": "Mouse_Fighting",
+    "title": "Mouse Fighting",
+    "tokens": [
+      "Mouse",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Paper_Working.svg",
+    "path": "./20260202/Mouse_Paper_Working.svg",
+    "stem": "Mouse_Paper_Working",
+    "title": "Mouse Paper Working",
+    "tokens": [
+      "Mouse",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Planning.svg",
+    "path": "./20260202/Mouse_Planning.svg",
+    "stem": "Mouse_Planning",
+    "title": "Mouse Planning",
+    "tokens": [
+      "Mouse",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Programming.svg",
+    "path": "./20260202/Mouse_Programming.svg",
+    "stem": "Mouse_Programming",
+    "title": "Mouse Programming",
+    "tokens": [
+      "Mouse",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Researching.svg",
+    "path": "./20260202/Mouse_Researching.svg",
+    "stem": "Mouse_Researching",
+    "title": "Mouse Researching",
+    "tokens": [
+      "Mouse",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Speaking.svg",
+    "path": "./20260202/Mouse_Speaking.svg",
+    "stem": "Mouse_Speaking",
+    "title": "Mouse Speaking",
+    "tokens": [
+      "Mouse",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Spelling.svg",
+    "path": "./20260202/Mouse_Spelling.svg",
+    "stem": "Mouse_Spelling",
+    "title": "Mouse Spelling",
+    "tokens": [
+      "Mouse",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Mouse_Studying.svg",
+    "path": "./20260202/Mouse_Studying.svg",
+    "stem": "Mouse_Studying",
+    "title": "Mouse Studying",
+    "tokens": [
+      "Mouse",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Crafting.svg",
+    "path": "./20260202/Owl_Crafting.svg",
+    "stem": "Owl_Crafting",
+    "title": "Owl Crafting",
+    "tokens": [
+      "Owl",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Designing.svg",
+    "path": "./20260202/Owl_Designing.svg",
+    "stem": "Owl_Designing",
+    "title": "Owl Designing",
+    "tokens": [
+      "Owl",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Fighting.svg",
+    "path": "./20260202/Owl_Fighting.svg",
+    "stem": "Owl_Fighting",
+    "title": "Owl Fighting",
+    "tokens": [
+      "Owl",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Paper_Working.svg",
+    "path": "./20260202/Owl_Paper_Working.svg",
+    "stem": "Owl_Paper_Working",
+    "title": "Owl Paper Working",
+    "tokens": [
+      "Owl",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Planning.svg",
+    "path": "./20260202/Owl_Planning.svg",
+    "stem": "Owl_Planning",
+    "title": "Owl Planning",
+    "tokens": [
+      "Owl",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Programming.svg",
+    "path": "./20260202/Owl_Programming.svg",
+    "stem": "Owl_Programming",
+    "title": "Owl Programming",
+    "tokens": [
+      "Owl",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Researching.svg",
+    "path": "./20260202/Owl_Researching.svg",
+    "stem": "Owl_Researching",
+    "title": "Owl Researching",
+    "tokens": [
+      "Owl",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Speaking.svg",
+    "path": "./20260202/Owl_Speaking.svg",
+    "stem": "Owl_Speaking",
+    "title": "Owl Speaking",
+    "tokens": [
+      "Owl",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Spelling.svg",
+    "path": "./20260202/Owl_Spelling.svg",
+    "stem": "Owl_Spelling",
+    "title": "Owl Spelling",
+    "tokens": [
+      "Owl",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Owl_Studying.svg",
+    "path": "./20260202/Owl_Studying.svg",
+    "stem": "Owl_Studying",
+    "title": "Owl Studying",
+    "tokens": [
+      "Owl",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Crafting.svg",
+    "path": "./20260202/Ox_Crafting.svg",
+    "stem": "Ox_Crafting",
+    "title": "Ox Crafting",
+    "tokens": [
+      "Ox",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Designing.svg",
+    "path": "./20260202/Ox_Designing.svg",
+    "stem": "Ox_Designing",
+    "title": "Ox Designing",
+    "tokens": [
+      "Ox",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Fighting.svg",
+    "path": "./20260202/Ox_Fighting.svg",
+    "stem": "Ox_Fighting",
+    "title": "Ox Fighting",
+    "tokens": [
+      "Ox",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Paper_Working.svg",
+    "path": "./20260202/Ox_Paper_Working.svg",
+    "stem": "Ox_Paper_Working",
+    "title": "Ox Paper Working",
+    "tokens": [
+      "Ox",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Planning.svg",
+    "path": "./20260202/Ox_Planning.svg",
+    "stem": "Ox_Planning",
+    "title": "Ox Planning",
+    "tokens": [
+      "Ox",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Programming.svg",
+    "path": "./20260202/Ox_Programming.svg",
+    "stem": "Ox_Programming",
+    "title": "Ox Programming",
+    "tokens": [
+      "Ox",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Researching.svg",
+    "path": "./20260202/Ox_Researching.svg",
+    "stem": "Ox_Researching",
+    "title": "Ox Researching",
+    "tokens": [
+      "Ox",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Speaking.svg",
+    "path": "./20260202/Ox_Speaking.svg",
+    "stem": "Ox_Speaking",
+    "title": "Ox Speaking",
+    "tokens": [
+      "Ox",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Spelling.svg",
+    "path": "./20260202/Ox_Spelling.svg",
+    "stem": "Ox_Spelling",
+    "title": "Ox Spelling",
+    "tokens": [
+      "Ox",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Ox_Studying.svg",
+    "path": "./20260202/Ox_Studying.svg",
+    "stem": "Ox_Studying",
+    "title": "Ox Studying",
+    "tokens": [
+      "Ox",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Crafting.svg",
+    "path": "./20260202/Panda_Crafting.svg",
+    "stem": "Panda_Crafting",
+    "title": "Panda Crafting",
+    "tokens": [
+      "Panda",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Designing.svg",
+    "path": "./20260202/Panda_Designing.svg",
+    "stem": "Panda_Designing",
+    "title": "Panda Designing",
+    "tokens": [
+      "Panda",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Fighting.svg",
+    "path": "./20260202/Panda_Fighting.svg",
+    "stem": "Panda_Fighting",
+    "title": "Panda Fighting",
+    "tokens": [
+      "Panda",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Paper_Working.svg",
+    "path": "./20260202/Panda_Paper_Working.svg",
+    "stem": "Panda_Paper_Working",
+    "title": "Panda Paper Working",
+    "tokens": [
+      "Panda",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Planning.svg",
+    "path": "./20260202/Panda_Planning.svg",
+    "stem": "Panda_Planning",
+    "title": "Panda Planning",
+    "tokens": [
+      "Panda",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Programming.svg",
+    "path": "./20260202/Panda_Programming.svg",
+    "stem": "Panda_Programming",
+    "title": "Panda Programming",
+    "tokens": [
+      "Panda",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Researching.svg",
+    "path": "./20260202/Panda_Researching.svg",
+    "stem": "Panda_Researching",
+    "title": "Panda Researching",
+    "tokens": [
+      "Panda",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Speaking.svg",
+    "path": "./20260202/Panda_Speaking.svg",
+    "stem": "Panda_Speaking",
+    "title": "Panda Speaking",
+    "tokens": [
+      "Panda",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Spelling.svg",
+    "path": "./20260202/Panda_Spelling.svg",
+    "stem": "Panda_Spelling",
+    "title": "Panda Spelling",
+    "tokens": [
+      "Panda",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Panda_Studying.svg",
+    "path": "./20260202/Panda_Studying.svg",
+    "stem": "Panda_Studying",
+    "title": "Panda Studying",
+    "tokens": [
+      "Panda",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Crafting.svg",
+    "path": "./20260202/Rabbit_Crafting.svg",
+    "stem": "Rabbit_Crafting",
+    "title": "Rabbit Crafting",
+    "tokens": [
+      "Rabbit",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Designing.svg",
+    "path": "./20260202/Rabbit_Designing.svg",
+    "stem": "Rabbit_Designing",
+    "title": "Rabbit Designing",
+    "tokens": [
+      "Rabbit",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Fighting.svg",
+    "path": "./20260202/Rabbit_Fighting.svg",
+    "stem": "Rabbit_Fighting",
+    "title": "Rabbit Fighting",
+    "tokens": [
+      "Rabbit",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Paper_Working.svg",
+    "path": "./20260202/Rabbit_Paper_Working.svg",
+    "stem": "Rabbit_Paper_Working",
+    "title": "Rabbit Paper Working",
+    "tokens": [
+      "Rabbit",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Planning.svg",
+    "path": "./20260202/Rabbit_Planning.svg",
+    "stem": "Rabbit_Planning",
+    "title": "Rabbit Planning",
+    "tokens": [
+      "Rabbit",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Programming.svg",
+    "path": "./20260202/Rabbit_Programming.svg",
+    "stem": "Rabbit_Programming",
+    "title": "Rabbit Programming",
+    "tokens": [
+      "Rabbit",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Researching.svg",
+    "path": "./20260202/Rabbit_Researching.svg",
+    "stem": "Rabbit_Researching",
+    "title": "Rabbit Researching",
+    "tokens": [
+      "Rabbit",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Speaking.svg",
+    "path": "./20260202/Rabbit_Speaking.svg",
+    "stem": "Rabbit_Speaking",
+    "title": "Rabbit Speaking",
+    "tokens": [
+      "Rabbit",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Spelling.svg",
+    "path": "./20260202/Rabbit_Spelling.svg",
+    "stem": "Rabbit_Spelling",
+    "title": "Rabbit Spelling",
+    "tokens": [
+      "Rabbit",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rabbit_Studying.svg",
+    "path": "./20260202/Rabbit_Studying.svg",
+    "stem": "Rabbit_Studying",
+    "title": "Rabbit Studying",
+    "tokens": [
+      "Rabbit",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Crafting.svg",
+    "path": "./20260202/Rhino_Crafting.svg",
+    "stem": "Rhino_Crafting",
+    "title": "Rhino Crafting",
+    "tokens": [
+      "Rhino",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Designing.svg",
+    "path": "./20260202/Rhino_Designing.svg",
+    "stem": "Rhino_Designing",
+    "title": "Rhino Designing",
+    "tokens": [
+      "Rhino",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Fighting.svg",
+    "path": "./20260202/Rhino_Fighting.svg",
+    "stem": "Rhino_Fighting",
+    "title": "Rhino Fighting",
+    "tokens": [
+      "Rhino",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Paper_Working.svg",
+    "path": "./20260202/Rhino_Paper_Working.svg",
+    "stem": "Rhino_Paper_Working",
+    "title": "Rhino Paper Working",
+    "tokens": [
+      "Rhino",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Planning.svg",
+    "path": "./20260202/Rhino_Planning.svg",
+    "stem": "Rhino_Planning",
+    "title": "Rhino Planning",
+    "tokens": [
+      "Rhino",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Programming.svg",
+    "path": "./20260202/Rhino_Programming.svg",
+    "stem": "Rhino_Programming",
+    "title": "Rhino Programming",
+    "tokens": [
+      "Rhino",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Researching.svg",
+    "path": "./20260202/Rhino_Researching.svg",
+    "stem": "Rhino_Researching",
+    "title": "Rhino Researching",
+    "tokens": [
+      "Rhino",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Speaking.svg",
+    "path": "./20260202/Rhino_Speaking.svg",
+    "stem": "Rhino_Speaking",
+    "title": "Rhino Speaking",
+    "tokens": [
+      "Rhino",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Spelling.svg",
+    "path": "./20260202/Rhino_Spelling.svg",
+    "stem": "Rhino_Spelling",
+    "title": "Rhino Spelling",
+    "tokens": [
+      "Rhino",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Rhino_Studying.svg",
+    "path": "./20260202/Rhino_Studying.svg",
+    "stem": "Rhino_Studying",
+    "title": "Rhino Studying",
+    "tokens": [
+      "Rhino",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Crafting.svg",
+    "path": "./20260202/Shark_Crafting.svg",
+    "stem": "Shark_Crafting",
+    "title": "Shark Crafting",
+    "tokens": [
+      "Shark",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Designing.svg",
+    "path": "./20260202/Shark_Designing.svg",
+    "stem": "Shark_Designing",
+    "title": "Shark Designing",
+    "tokens": [
+      "Shark",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Fighting.svg",
+    "path": "./20260202/Shark_Fighting.svg",
+    "stem": "Shark_Fighting",
+    "title": "Shark Fighting",
+    "tokens": [
+      "Shark",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Paper_Working.svg",
+    "path": "./20260202/Shark_Paper_Working.svg",
+    "stem": "Shark_Paper_Working",
+    "title": "Shark Paper Working",
+    "tokens": [
+      "Shark",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Planning.svg",
+    "path": "./20260202/Shark_Planning.svg",
+    "stem": "Shark_Planning",
+    "title": "Shark Planning",
+    "tokens": [
+      "Shark",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Programming.svg",
+    "path": "./20260202/Shark_Programming.svg",
+    "stem": "Shark_Programming",
+    "title": "Shark Programming",
+    "tokens": [
+      "Shark",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Researching.svg",
+    "path": "./20260202/Shark_Researching.svg",
+    "stem": "Shark_Researching",
+    "title": "Shark Researching",
+    "tokens": [
+      "Shark",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Speaking.svg",
+    "path": "./20260202/Shark_Speaking.svg",
+    "stem": "Shark_Speaking",
+    "title": "Shark Speaking",
+    "tokens": [
+      "Shark",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Spelling.svg",
+    "path": "./20260202/Shark_Spelling.svg",
+    "stem": "Shark_Spelling",
+    "title": "Shark Spelling",
+    "tokens": [
+      "Shark",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Shark_Studying.svg",
+    "path": "./20260202/Shark_Studying.svg",
+    "stem": "Shark_Studying",
+    "title": "Shark Studying",
+    "tokens": [
+      "Shark",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Crafting.svg",
+    "path": "./20260202/Sheep_Crafting.svg",
+    "stem": "Sheep_Crafting",
+    "title": "Sheep Crafting",
+    "tokens": [
+      "Sheep",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Designing.svg",
+    "path": "./20260202/Sheep_Designing.svg",
+    "stem": "Sheep_Designing",
+    "title": "Sheep Designing",
+    "tokens": [
+      "Sheep",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Fighting.svg",
+    "path": "./20260202/Sheep_Fighting.svg",
+    "stem": "Sheep_Fighting",
+    "title": "Sheep Fighting",
+    "tokens": [
+      "Sheep",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Paper_Working.svg",
+    "path": "./20260202/Sheep_Paper_Working.svg",
+    "stem": "Sheep_Paper_Working",
+    "title": "Sheep Paper Working",
+    "tokens": [
+      "Sheep",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Planning.svg",
+    "path": "./20260202/Sheep_Planning.svg",
+    "stem": "Sheep_Planning",
+    "title": "Sheep Planning",
+    "tokens": [
+      "Sheep",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Programming.svg",
+    "path": "./20260202/Sheep_Programming.svg",
+    "stem": "Sheep_Programming",
+    "title": "Sheep Programming",
+    "tokens": [
+      "Sheep",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Researching.svg",
+    "path": "./20260202/Sheep_Researching.svg",
+    "stem": "Sheep_Researching",
+    "title": "Sheep Researching",
+    "tokens": [
+      "Sheep",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Speaking.svg",
+    "path": "./20260202/Sheep_Speaking.svg",
+    "stem": "Sheep_Speaking",
+    "title": "Sheep Speaking",
+    "tokens": [
+      "Sheep",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Spelling.svg",
+    "path": "./20260202/Sheep_Spelling.svg",
+    "stem": "Sheep_Spelling",
+    "title": "Sheep Spelling",
+    "tokens": [
+      "Sheep",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Sheep_Studying.svg",
+    "path": "./20260202/Sheep_Studying.svg",
+    "stem": "Sheep_Studying",
+    "title": "Sheep Studying",
+    "tokens": [
+      "Sheep",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Crafting.svg",
+    "path": "./20260202/Snake_Crafting.svg",
+    "stem": "Snake_Crafting",
+    "title": "Snake Crafting",
+    "tokens": [
+      "Snake",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Designing.svg",
+    "path": "./20260202/Snake_Designing.svg",
+    "stem": "Snake_Designing",
+    "title": "Snake Designing",
+    "tokens": [
+      "Snake",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Fighting.svg",
+    "path": "./20260202/Snake_Fighting.svg",
+    "stem": "Snake_Fighting",
+    "title": "Snake Fighting",
+    "tokens": [
+      "Snake",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Paper_Working.svg",
+    "path": "./20260202/Snake_Paper_Working.svg",
+    "stem": "Snake_Paper_Working",
+    "title": "Snake Paper Working",
+    "tokens": [
+      "Snake",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Planning.svg",
+    "path": "./20260202/Snake_Planning.svg",
+    "stem": "Snake_Planning",
+    "title": "Snake Planning",
+    "tokens": [
+      "Snake",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Programming.svg",
+    "path": "./20260202/Snake_Programming.svg",
+    "stem": "Snake_Programming",
+    "title": "Snake Programming",
+    "tokens": [
+      "Snake",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Researching.svg",
+    "path": "./20260202/Snake_Researching.svg",
+    "stem": "Snake_Researching",
+    "title": "Snake Researching",
+    "tokens": [
+      "Snake",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Speaking.svg",
+    "path": "./20260202/Snake_Speaking.svg",
+    "stem": "Snake_Speaking",
+    "title": "Snake Speaking",
+    "tokens": [
+      "Snake",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Spelling.svg",
+    "path": "./20260202/Snake_Spelling.svg",
+    "stem": "Snake_Spelling",
+    "title": "Snake Spelling",
+    "tokens": [
+      "Snake",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Snake_Studying.svg",
+    "path": "./20260202/Snake_Studying.svg",
+    "stem": "Snake_Studying",
+    "title": "Snake Studying",
+    "tokens": [
+      "Snake",
+      "Studying"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Crafting.svg",
+    "path": "./20260202/Whale_Crafting.svg",
+    "stem": "Whale_Crafting",
+    "title": "Whale Crafting",
+    "tokens": [
+      "Whale",
+      "Crafting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Designing.svg",
+    "path": "./20260202/Whale_Designing.svg",
+    "stem": "Whale_Designing",
+    "title": "Whale Designing",
+    "tokens": [
+      "Whale",
+      "Designing"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Fighting.svg",
+    "path": "./20260202/Whale_Fighting.svg",
+    "stem": "Whale_Fighting",
+    "title": "Whale Fighting",
+    "tokens": [
+      "Whale",
+      "Fighting"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Paper_Working.svg",
+    "path": "./20260202/Whale_Paper_Working.svg",
+    "stem": "Whale_Paper_Working",
+    "title": "Whale Paper Working",
+    "tokens": [
+      "Whale",
+      "Paper",
+      "Working"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Planning.svg",
+    "path": "./20260202/Whale_Planning.svg",
+    "stem": "Whale_Planning",
+    "title": "Whale Planning",
+    "tokens": [
+      "Whale",
+      "Planning"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Programming.svg",
+    "path": "./20260202/Whale_Programming.svg",
+    "stem": "Whale_Programming",
+    "title": "Whale Programming",
+    "tokens": [
+      "Whale",
+      "Programming"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Researching.svg",
+    "path": "./20260202/Whale_Researching.svg",
+    "stem": "Whale_Researching",
+    "title": "Whale Researching",
+    "tokens": [
+      "Whale",
+      "Researching"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Speaking.svg",
+    "path": "./20260202/Whale_Speaking.svg",
+    "stem": "Whale_Speaking",
+    "title": "Whale Speaking",
+    "tokens": [
+      "Whale",
+      "Speaking"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Spelling.svg",
+    "path": "./20260202/Whale_Spelling.svg",
+    "stem": "Whale_Spelling",
+    "title": "Whale Spelling",
+    "tokens": [
+      "Whale",
+      "Spelling"
+    ]
+  },
+  {
+    "batch": "20260202",
+    "filename": "Whale_Studying.svg",
+    "path": "./20260202/Whale_Studying.svg",
+    "stem": "Whale_Studying",
+    "title": "Whale Studying",
+    "tokens": [
+      "Whale",
+      "Studying"
+    ]
   }
 ]

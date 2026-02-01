@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    
+    <style>
+      /* Global Floating Animation */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .avatar-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      /* Eye Blink */
+      @keyframes blink {
+        0%, 96%, 100% { transform: scaleY(1); }
+        98% { transform: scaleY(0.1); }
+      }
+      .eye-anim {
+        transform-origin: center;
+        animation: blink 4s infinite;
+      }
+      
+      /* Specific Animations */
+      @keyframes ear-twitch { 0%, 95%, 100% { transform: rotate(0deg); } 97% { transform: rotate(5deg); } }
+      .ear-l { transform-origin: center bottom; animation: ear-twitch 5s infinite; }
+      .ear-r { transform-origin: center bottom; animation: ear-twitch 5s infinite; animation-delay: 0.5s; }
+      
+      @keyframes sheen { 0%, 90% { opacity: 0; transform: translateX(-20px) rotate(45deg); } 95% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(20px) rotate(45deg); } }
+      .lens-sheen { animation: sheen 6s infinite; }
+    </style>
+
+    <filter id="pixel-cutter-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- 1. Refined Outline (Thinner, softer gold) -->
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="thick"/>
+      <feFlood flood-color="#F4D03F" result="gold"/>
+      <feComposite in="gold" in2="thick" operator="in" result="outline"/>
+      
+      <!-- 2. Subtle Shadow -->
+      <feGaussianBlur in="thick" stdDeviation="2" result="shadowBlur"/>
+      <feOffset in="shadowBlur" dx="2" dy="2" result="shadowOffset"/>
+      <feFlood flood-color="#000" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="shadowOffset" operator="in" result="shadow"/>
+      
+      <!-- 3. Minimal Gloss (Just a hint of material) -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.1" specularExponent="20" lighting-color="#FFF" result="specular">
+        <fePointLight x="-5000" y="-10000" z="10000"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceAlpha" operator="in" result="specularOut"/>
+
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="specularOut"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  <g filter="url(#pixel-cutter-filter)">
+    <g class="avatar-body" transform="translate(0, 20) scale(0.85) translate(51.2, 51.2)">
+      
+    <g>
+      <!-- Body -->
+      <path d="M140 180 L372 180 L352 360 L256 400 L160 360 Z" fill="#2E86C1"/>
+      <!-- Belly -->
+      <path d="M160 300 L352 300 L256 400 Z" fill="#5DADE2" opacity="0.5"/>
+      <!-- Eyes -->
+      <circle cx="180" cy="280" r="10" fill="#17202A" class="eye-anim"/>
+      <circle cx="332" cy="280" r="10" fill="#17202A" class="eye-anim"/>
+      <!-- Spout -->
+      <path d="M256 180 L246 120 M256 180 L266 120 M256 180 L256 110" stroke="#A9CCE3" stroke-width="4"/>
+      <circle cx="246" cy="110" r="5" fill="#A9CCE3"/>
+      <circle cx="266" cy="110" r="5" fill="#A9CCE3"/>
+      <circle cx="256" cy="100" r="5" fill="#A9CCE3"/>
+    </g>
+      
+      <g transform="translate(136, 310)">
+        <rect x="-5" y="-5" width="250" height="130" rx="10" fill="rgba(0, 230, 118, 0.1)"/> <!-- Glow -->
+        <rect x="0" y="0" width="240" height="120" rx="8" fill="rgba(10, 25, 10, 0.9)" stroke="#00E676" stroke-width="2"/>
+        <text x="15" y="35" fill="#00E676" font-family="monospace" font-size="14" font-weight="bold">&gt; RUN AGENT</text>
+        <text x="15" y="60" fill="#00E676" font-family="monospace" font-size="14">&gt; status: active</text>
+        <rect x="15" y="80" width="120" height="12" fill="#00E676" opacity="0.4" class="lens-sheen"/>
+      </g>
+      <path d="M140 200 Q120 100 256 100 Q392 100 372 200" stroke="#222" stroke-width="10" fill="none" opacity="0.8"/>
+      <rect x="110" y="170" width="35" height="65" rx="8" fill="#111"/>
+      <rect x="367" y="170" width="35" height="65" rx="8" fill="#111"/>
+    
+    </g>
+  </g>
+</svg>

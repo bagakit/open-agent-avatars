@@ -24,27 +24,27 @@ const panda = avatars.filter(
 Each entry includes:
 - `batch`, `filename`, `path`, `stem`, `title`, `tokens`, optional `timestamp`, and `url`
 
-### Use batch-grouped constants (recommended)
+### Use a versioned module (recommended; best for tree-shaking)
 
 ```js
-import { B260201 } from "@bagakit/open-agent-avatars";
+import CAPYBARA_CRAFTING from "@bagakit/open-agent-avatars/20260202/CAPYBARA_CRAFTING";
 
 const img = document.createElement("img");
-img.src = B260201.BRAVE_WARRIOR_OWL;
+img.src = CAPYBARA_CRAFTING;
 document.body.appendChild(img);
 ```
 
 Notes:
-- `B260201` maps to the `20260201/` batch directory (format: `B` + `YYMMDD`).
-- Constants are derived from the filename stem (without the trailing timestamp). If multiple versions exist, the latest timestamp wins.
+- `20260202/` is a versioned batch folder.
+- Export names are derived from the filename stem (without the trailing timestamp). If multiple versions exist, the latest timestamp wins.
+- You can also import from the version index:
+  ```js
+  import { CAPYBARA_CRAFTING } from "@bagakit/open-agent-avatars/20260202";
+  ```
 
-### Raw file access (bundler-specific)
+### Raw SVG access
 
-You can also deep-import the SVG file directly (how it loads depends on your tooling):
-
-```js
-import svgPath from "@bagakit/open-agent-avatars/20260201/Panda_Code_Master_20260201061459.svg";
-```
+If you need raw SVGs, use the repo files directly (this package primarily exposes per-icon JS modules).
 
 ## Maintenance
 
@@ -52,4 +52,10 @@ When you add new batch folders (e.g. `YYYYMMDD/`) or add/remove SVGs, regenerate
 
 ```bash
 npm run generate
+```
+
+To (re)generate the `20260202/` batch assets locally (repo maintainers):
+
+```bash
+node ./scripts/generate-new-avatars.mjs
 ```

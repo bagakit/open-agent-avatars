@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    
+    <style>
+      /* Global Floating Animation */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .avatar-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      /* Eye Blink */
+      @keyframes blink {
+        0%, 96%, 100% { transform: scaleY(1); }
+        98% { transform: scaleY(0.1); }
+      }
+      .eye-anim {
+        transform-origin: center;
+        animation: blink 4s infinite;
+      }
+      
+      /* Specific Animations */
+      @keyframes ear-twitch { 0%, 95%, 100% { transform: rotate(0deg); } 97% { transform: rotate(5deg); } }
+      .ear-l { transform-origin: center bottom; animation: ear-twitch 5s infinite; }
+      .ear-r { transform-origin: center bottom; animation: ear-twitch 5s infinite; animation-delay: 0.5s; }
+      
+      @keyframes sheen { 0%, 90% { opacity: 0; transform: translateX(-20px) rotate(45deg); } 95% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(20px) rotate(45deg); } }
+      .lens-sheen { animation: sheen 6s infinite; }
+    </style>
+
+    <filter id="pixel-cutter-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- 1. Refined Outline (Thinner, softer gold) -->
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="thick"/>
+      <feFlood flood-color="#F4D03F" result="gold"/>
+      <feComposite in="gold" in2="thick" operator="in" result="outline"/>
+      
+      <!-- 2. Subtle Shadow -->
+      <feGaussianBlur in="thick" stdDeviation="2" result="shadowBlur"/>
+      <feOffset in="shadowBlur" dx="2" dy="2" result="shadowOffset"/>
+      <feFlood flood-color="#000" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="shadowOffset" operator="in" result="shadow"/>
+      
+      <!-- 3. Minimal Gloss (Just a hint of material) -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.1" specularExponent="20" lighting-color="#FFF" result="specular">
+        <fePointLight x="-5000" y="-10000" z="10000"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceAlpha" operator="in" result="specularOut"/>
+
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="specularOut"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  <g filter="url(#pixel-cutter-filter)">
+    <g class="avatar-body" transform="translate(0, 20) scale(0.85) translate(51.2, 51.2)">
+      
+    <g>
+      <!-- Ears -->
+      <path d="M172 160 L80 60 L140 240 Z" fill="#BA4A00" class="ear-l"/>
+      <path d="M340 160 L432 60 L372 240 Z" fill="#BA4A00" class="ear-r"/>
+      <!-- Head -->
+      <path d="M256 100 L340 160 L256 220 L172 160 Z" fill="#F39C12"/>
+      <path d="M172 160 L256 220 L220 320 L140 240 Z" fill="#E67E22"/>
+      <path d="M340 160 L372 240 L292 320 L256 220 Z" fill="#BA4A00"/>
+      <!-- Snout -->
+      <path d="M256 220 L292 320 L256 360 L220 320 Z" fill="#FFF"/>
+      <path d="M256 360 L276 370 L256 390 L236 370 Z" fill="#2C3E50"/>
+      <!-- Eyes -->
+      <path d="M190 250 L220 250 L215 270 L195 270 Z" fill="#2C3E50" class="eye-anim"/>
+      <path d="M292 250 L322 250 L317 270 L297 270 Z" fill="#2C3E50" class="eye-anim"/>
+    </g>
+      
+      <g transform="translate(0, -10)">
+        <path d="M150 140 L362 140 L362 175 L150 175 Z" fill="#C0392B"/>
+        <!-- Headband Knots -->
+        <g transform="translate(362, 157)">
+          <path d="M0 0 L40 -20 L50 10 Z" fill="#B71C1C"/>
+          <path d="M0 0 L30 30 L50 20 Z" fill="#B71C1C"/>
+        </g>
+      </g>
+      <path d="M190 210 L220 280" stroke="#C0392B" stroke-width="4" opacity="0.6" stroke-linecap="round"/>
+    
+    </g>
+  </g>
+</svg>

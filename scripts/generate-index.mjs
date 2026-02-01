@@ -11,11 +11,24 @@ function isBatchDirName(name) {
 }
 
 function listBatchDirs() {
-  return fs
+  const dirs = fs
     .readdirSync(ROOT, { withFileTypes: true })
     .filter((d) => d.isDirectory() && isBatchDirName(d.name))
     .map((d) => d.name)
     .sort();
+
+  // Only treat folders as "asset batches" if they actually contain SVGs.
+  return dirs.filter((name) => {
+    const abs = path.join(ROOT, name);
+    try {
+      const entries = fs.readdirSync(abs, { withFileTypes: true });
+      return entries.some(
+        (e) => e.isFile() && e.name.toLowerCase().endsWith(".svg")
+      );
+    } catch {
+      return false;
+    }
+  });
 }
 
 function toTitle(tokens) {
@@ -30,12 +43,6 @@ function parseFilename(filename) {
   const timestamp = m ? m[2] : undefined;
   const tokens = stem.split("_").filter(Boolean);
   return { base, stem, timestamp, tokens };
-}
-
-function toBatchExportName(batch) {
-  // Batch dirs are YYYYMMDD. Expose BYYMMDD for concise imports, e.g. 20260201 -> B260201.
-  if (/^\d{8}$/.test(batch)) return `B${batch.slice(2)}`;
-  return `B${toConstIdent(batch)}`;
 }
 
 function toConstIdent(s) {
@@ -84,6 +91,20 @@ function writeFile(rel, content) {
   fs.writeFileSync(abs, content, "utf8");
 }
 
+function ensureEmptyDir(relDir) {
+  const abs = path.join(ROOT, relDir);
+  if (!fs.existsSync(abs)) {
+    fs.mkdirSync(abs, { recursive: true });
+    return;
+  }
+  const entries = fs.readdirSync(abs, { withFileTypes: true });
+  for (const e of entries) {
+    if (!e.isFile()) continue;
+    if (!/\.(mjs|cjs|d\.ts|d\.cts)$/i.test(e.name)) continue;
+    fs.unlinkSync(path.join(abs, e.name));
+  }
+}
+
 function pickLatestByStem(entries) {
   // For scalable constant naming (without timestamps), keep one "latest" entry per stem.
   // If timestamps exist, lexicographic compare works for YYYYMMDDHHmmss.
@@ -106,23 +127,6 @@ function pickLatestByStem(entries) {
 function generate() {
   const batches = listBatchDirs();
   const avatars = batches.flatMap((b) => readSvgsInBatch(b));
-
-  // Group constants by batch, using the (timestamp-less) stem as the constant name.
-  // If the same stem exists multiple times in a batch, we export only the latest one.
-  const batchExports = new Map(); // batchName -> [{ constName, path }]
-  for (const batch of batches) {
-    const entries = avatars.filter((a) => a.batch === batch);
-    const latest = pickLatestByStem(entries);
-    const used = new Map();
-    const constants = latest.map((a) => {
-      let constName = toConstIdent(a.stem);
-      const n = (used.get(constName) ?? 0) + 1;
-      used.set(constName, n);
-      if (n > 1) constName = `${constName}_${n}`;
-      return { constName, path: a.path };
-    });
-    batchExports.set(toBatchExportName(batch), { batch, constants });
-  }
 
   writeFile("index.json", escapeJson(avatars));
 
@@ -153,24 +157,6 @@ function generate() {
         .join(",\n") +
       "\n]);\n"
   );
-  mjsLines.push("\n");
-  for (const [exportName, data] of batchExports.entries()) {
-    mjsLines.push(`export const ${exportName} = Object.freeze({\n`);
-    for (const c of data.constants) {
-      mjsLines.push(
-        `  ${c.constName}: new URL(${jsStringLiteral(
-          c.path
-        )}, import.meta.url).href,\n`
-      );
-    }
-    mjsLines.push("});\n\n");
-  }
-  if (batchExports.size) {
-    const names = Array.from(batchExports.keys()).sort();
-    mjsLines.push(
-      `export const batches = Object.freeze({ ${names.join(", ")} });\n`
-    );
-  }
   writeFile("index.mjs", mjsLines.join(""));
 
   const cjsLines = [];
@@ -206,22 +192,6 @@ function generate() {
       "\n]);\n\n"
   );
   cjsLines.push("module.exports.avatars = avatars;\n");
-  for (const [exportName, data] of batchExports.entries()) {
-    cjsLines.push(`module.exports.${exportName} = Object.freeze({\n`);
-    for (const c of data.constants) {
-      const relPath = c.path.startsWith("./") ? c.path.slice(2) : c.path;
-      cjsLines.push(
-        `  ${c.constName}: toFileUrl(${jsStringLiteral(relPath)}),\n`
-      );
-    }
-    cjsLines.push("});\n");
-  }
-  if (batchExports.size) {
-    const names = Array.from(batchExports.keys()).sort();
-    cjsLines.push(`module.exports.batches = Object.freeze({\n`);
-    for (const n of names) cjsLines.push(`  ${n}: module.exports.${n},\n`);
-    cjsLines.push("});\n");
-  }
   writeFile("index.cjs", cjsLines.join(""));
 
   const dtsLines = [];
@@ -239,26 +209,95 @@ function generate() {
       "};\n\n"
   );
   dtsLines.push("export const avatars: readonly AvatarEntry[];\n\n");
-  const batchNames = Array.from(batchExports.keys()).sort();
-  for (const n of batchNames) {
-    const data = batchExports.get(n);
-    dtsLines.push(`export const ${n}: {\n`);
-    for (const c of data.constants) {
-      dtsLines.push(`  readonly ${c.constName}: string;\n`);
-    }
-    dtsLines.push("};\n\n");
-  }
-  if (batchNames.length) {
-    dtsLines.push(
-      "export const batches: {\n" +
-        batchNames.map((n) => `  readonly ${n}: typeof ${n};`).join("\n") +
-        "\n};\n"
-    );
-  }
   writeFile("index.d.ts", dtsLines.join(""));
 
+  // Only generate per-icon modules for a single "current" batch to keep the repo/package size reasonable.
+  // Default is 20260202, but can be overridden for regeneration.
+  const desiredExportBatch = process.env.AVATARS_EXPORT_BATCH ?? "20260202";
+  const exportBatch = batches.includes(desiredExportBatch)
+    ? desiredExportBatch
+    : batches[batches.length - 1];
+  if (!exportBatch) throw new Error("No batch dirs found (expected YYYYMMDD/).");
+
+  // Generate per-icon modules per batch:
+  // - one icon per module file for stable, tree-shakeable consumption
+  // - batch index re-exports for ergonomic `import { X } from "@pkg/20260202"`
+  for (const batch of batches) {
+    if (batch !== exportBatch) continue;
+    const entries = avatars.filter((a) => a.batch === batch);
+    const latest = pickLatestByStem(entries);
+
+    const used = new Map();
+    const iconModules = latest.map((a) => {
+      let name = toConstIdent(a.stem);
+      const n = (used.get(name) ?? 0) + 1;
+      used.set(name, n);
+      if (n > 1) name = `${name}_${n}`;
+      return { name, svgFilename: a.filename };
+    });
+
+    const modDir = `${batch}/mod`;
+    ensureEmptyDir(modDir);
+
+    const batchIndexMjs = [];
+    batchIndexMjs.push(banner);
+    for (const m of iconModules) {
+      batchIndexMjs.push(
+        `export { default as ${m.name} } from ${jsStringLiteral(
+          `./mod/${m.name}.mjs`
+        )};\n`
+      );
+    }
+    writeFile(`${batch}/index.mjs`, batchIndexMjs.join(""));
+
+    const batchIndexCjs = [];
+    batchIndexCjs.push(banner);
+    for (const m of iconModules) {
+      batchIndexCjs.push(
+        `module.exports.${m.name} = require(${jsStringLiteral(
+          `./mod/${m.name}.cjs`
+        )});\n`
+      );
+    }
+    writeFile(`${batch}/index.cjs`, batchIndexCjs.join(""));
+
+    const batchIndexDts = [];
+    batchIndexDts.push(banner);
+    for (const m of iconModules) {
+      batchIndexDts.push(`export const ${m.name}: string;\n`);
+    }
+    writeFile(`${batch}/index.d.ts`, batchIndexDts.join(""));
+
+    for (const m of iconModules) {
+      const svgRelFromMod = path.posix.join("..", m.svgFilename);
+
+      writeFile(
+        `${modDir}/${m.name}.mjs`,
+        banner +
+          `export default new URL(${jsStringLiteral(
+            svgRelFromMod
+          )}, import.meta.url).href;\n`
+      );
+
+      writeFile(
+        `${modDir}/${m.name}.cjs`,
+        banner +
+          "const path = require('node:path');\n" +
+          "const { pathToFileURL } = require('node:url');\n\n" +
+          `module.exports = pathToFileURL(path.join(__dirname, ${jsStringLiteral(
+            svgRelFromMod
+          )})).href;\n`
+      );
+
+      writeFile(
+        `${modDir}/${m.name}.d.ts`,
+        banner + "declare const url: string;\nexport default url;\n"
+      );
+    }
+  }
+
   console.log(
-    `Generated index for ${avatars.length} avatars across ${batches.length} batch(es).`
+    `Generated index for ${avatars.length} avatars across ${batches.length} batch(es). Exported batch: ${exportBatch}.`
   );
 }
 

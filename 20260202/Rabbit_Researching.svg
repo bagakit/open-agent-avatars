@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    
+    <style>
+      /* Global Floating Animation */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .avatar-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      /* Eye Blink */
+      @keyframes blink {
+        0%, 96%, 100% { transform: scaleY(1); }
+        98% { transform: scaleY(0.1); }
+      }
+      .eye-anim {
+        transform-origin: center;
+        animation: blink 4s infinite;
+      }
+      
+      /* Specific Animations */
+      @keyframes ear-twitch { 0%, 95%, 100% { transform: rotate(0deg); } 97% { transform: rotate(5deg); } }
+      .ear-l { transform-origin: center bottom; animation: ear-twitch 5s infinite; }
+      .ear-r { transform-origin: center bottom; animation: ear-twitch 5s infinite; animation-delay: 0.5s; }
+      
+      @keyframes sheen { 0%, 90% { opacity: 0; transform: translateX(-20px) rotate(45deg); } 95% { opacity: 0.6; } 100% { opacity: 0; transform: translateX(20px) rotate(45deg); } }
+      .lens-sheen { animation: sheen 6s infinite; }
+    </style>
+
+    <filter id="pixel-cutter-filter" x="-50%" y="-50%" width="200%" height="200%">
+      <!-- 1. Refined Outline (Thinner, softer gold) -->
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="thick"/>
+      <feFlood flood-color="#F4D03F" result="gold"/>
+      <feComposite in="gold" in2="thick" operator="in" result="outline"/>
+      
+      <!-- 2. Subtle Shadow -->
+      <feGaussianBlur in="thick" stdDeviation="2" result="shadowBlur"/>
+      <feOffset in="shadowBlur" dx="2" dy="2" result="shadowOffset"/>
+      <feFlood flood-color="#000" flood-opacity="0.2" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="shadowOffset" operator="in" result="shadow"/>
+      
+      <!-- 3. Minimal Gloss (Just a hint of material) -->
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.1" specularExponent="20" lighting-color="#FFF" result="specular">
+        <fePointLight x="-5000" y="-10000" z="10000"/>
+      </feSpecularLighting>
+      <feComposite in="specular" in2="SourceAlpha" operator="in" result="specularOut"/>
+
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="specularOut"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  <g filter="url(#pixel-cutter-filter)">
+    <g class="avatar-body" transform="translate(0, 20) scale(0.85) translate(51.2, 51.2)">
+      
+    <g>
+      <!-- Ears (Long) -->
+      <path d="M200 160 L180 40 L240 160 Z" fill="#E6B0AA" class="ear-l"/>
+      <path d="M312 160 L332 40 L272 160 Z" fill="#E6B0AA" class="ear-r"/>
+      <path d="M200 160 L190 80 L220 160 Z" fill="#FDEDEC" class="ear-l"/>
+      <path d="M312 160 L322 80 L292 160 Z" fill="#FDEDEC" class="ear-r"/>
+      <!-- Head -->
+      <circle cx="256" cy="240" r="80" fill="#FADBD8"/>
+      <!-- Cheeks -->
+      <circle cx="226" cy="280" r="30" fill="#FDEDEC" opacity="0.5"/>
+      <circle cx="286" cy="280" r="30" fill="#FDEDEC" opacity="0.5"/>
+      <!-- Nose -->
+      <path d="M246 280 L266 280 L256 300 Z" fill="#E91E63"/>
+      <!-- Eyes -->
+      <circle cx="216" cy="230" r="10" fill="#C0392B" class="eye-anim"/>
+      <circle cx="296" cy="230" r="10" fill="#C0392B" class="eye-anim"/>
+    </g>
+      
+      <g transform="translate(350, 330) rotate(-15)">
+        <circle cx="0" cy="0" r="50" stroke="#5D6D7E" stroke-width="10" fill="rgba(200,245,255,0.4)"/>
+        <path d="M0 50 L0 100" stroke="#5D6D7E" stroke-width="14" stroke-linecap="round"/>
+        <path d="M-25 -25 L25 25" stroke="#FFF" stroke-width="6" opacity="0.5" class="lens-sheen"/>
+      </g>
+      <g transform="translate(130, 370)">
+        <rect x="0" y="0" width="110" height="70" rx="5" fill="#FFF" stroke="#BDC3C7" stroke-width="2"/>
+        <polyline points="10,50 35,20 60,55 85,15 100,40" fill="none" stroke="#2ECC71" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    
+    </g>
+  </g>
+</svg>
