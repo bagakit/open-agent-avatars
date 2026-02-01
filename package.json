@@ -1,0 +1,26 @@
+{
+  "name": "@bagakit/open-agent-avatars",
+  "version": "0.1.0",
+  "description": "A ready-to-use set of open-agent avatar SVGs for quickly bootstrapping other projects.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./index.json": "./index.json",
+    "./*": "./*",
+    "./*/*": "./*/*"
+  },
+  "scripts": {
+    "generate": "node ./scripts/generate-index.mjs",
+    "prepack": "node ./scripts/generate-index.mjs",
+    "publish:public": "npm publish --access public"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

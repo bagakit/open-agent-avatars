@@ -1,0 +1,7 @@
+.codex/
+dist/
+*.tgz
+.DS_Store
+.gitignore
+Makefile
+scripts/
