@@ -63,6 +63,21 @@ if (coder) {
 }
 ```
 
+## Bundler Notes (Vite Pitfall)
+
+Some Vite setups may prebundle this package and turn `new URL(..., import.meta.url)` into
+file paths that the dev server cannot serve, resulting in broken `<img src>` values.
+
+If icons do not render in Vite, add:
+
+```js
+// vite.config.js
+export default defineConfig({
+  assetsInclude: ["**/*.svg"],
+  optimizeDeps: { exclude: ["@bagakit/open-agent-avatars"] },
+});
+```
+
 ## Available Content
 
 - **Animals**: Panda, Owl, Dog, Cat, Elephant, Mouse, Dragon, Snake, Sheep, Goat, Ox, Capybara, Fox, Rabbit, Rhino, Shark, Whale.
